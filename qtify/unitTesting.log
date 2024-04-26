@@ -1,0 +1,1454 @@
+2024-04-21 10:01:29,473 unitTesting-b23b8513-5e5c-4574-b571-77acc93fe3e1 INFO     Removing `node_modules` symlinks
+2024-04-21 10:01:29,477 unitTesting-b23b8513-5e5c-4574-b571-77acc93fe3e1 INFO     Installing dependencies...
+2024-04-21 10:03:06,892 unitTesting-b23b8513-5e5c-4574-b571-77acc93fe3e1 INFO     Running the tests...
+2024-04-21 10:04:08,175 unitTesting-b23b8513-5e5c-4574-b571-77acc93fe3e1 INFO     Test logs : 
+> qkart-frontend-v2-hooks@0.1.0 test /nikitarodge1-ME_QKART_FRONTEND_V2-b23b8513-5e5c-4574-b571-77acc93fe3e1/nikitarodge1-ME_QKART_FRONTEND_V2
+> react-scripts test --json --outputFile=testReport.json --watchAll=false "--reporters=jest-junit" "--reporters=default" "--verbose" "--forceExit"
+
+  console.error
+    Warning: React does not recognize the `Item` prop on a DOM element. If you intentionally want it to appear in the DOM as a custom attribute, spell it as lowercase `item` instead. If you accidentally passed it from a parent component, remove it from the DOM element.
+        at div
+        at MuiGrid-***** (/nikitarodge1-ME_QKART_FRONTEND_V2-b23b8513-5e5c-4574-b571-77acc93fe3e1/nikitarodge1-ME_QKART_FRONTEND_V2/node_modules/@emotion/react/dist/emotion-element-f93e57b0.cjs.dev.js:62:23)
+        at Grid (/nikitarodge1-ME_QKART_FRONTEND_V2-b23b8513-5e5c-4574-b571-77acc93fe3e1/nikitarodge1-ME_QKART_FRONTEND_V2/node_modules/@mui/material/node/Grid/Grid.js:381:49)
+        at div
+        at Products (/nikitarodge1-ME_QKART_FRONTEND_V2-b23b8513-5e5c-4574-b571-77acc93fe3e1/nikitarodge1-ME_QKART_FRONTEND_V2/src/components/Products.js:32:42)
+        at Router (/nikitarodge1-ME_QKART_FRONTEND_V2-b23b8513-5e5c-4574-b571-77acc93fe3e1/nikitarodge1-ME_QKART_FRONTEND_V2/node_modules/react-router/cjs/react-router.js:283:30)
+        at SnackbarProvider (/nikitarodge1-ME_QKART_FRONTEND_V2-b23b8513-5e5c-4574-b571-77acc93fe3e1/nikitarodge1-ME_QKART_FRONTEND_V2/node_modules/notistack/src/SnackbarProvider.tsx:30:9)
+
+    [0m [90m 132 |[39m
+     [90m 133 |[39m     [36mawait[39m act([36masync[39m () [33m=>[39m {
+    [31m[1m>[22m[39m[90m 134 |[39m       render([33mProductDOMTree[39m(history))[33m;[39m
+     [90m     |[39m             [31m[1m^[22m[39m
+     [90m 135 |[39m     })[33m;[39m
+     [90m 136 |[39m   })[33m;[39m
+     [90m 137 |[39m[0m
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
+      at validateProperty$1 (node_modules/react-dom/cjs/react-dom.development.js:3513:7)
+      at warnUnknownProperties (node_modules/react-dom/cjs/react-dom.development.js:3559:21)
+      at validateProperties$2 (node_modules/react-dom/cjs/react-dom.development.js:3583:3)
+      at validatePropertiesInDevelopment (node_modules/react-dom/cjs/react-dom.development.js:8765:5)
+      at setInitialProperties (node_modules/react-dom/cjs/react-dom.development.js:9041:5)
+      at finalizeInitialChildren (node_modules/react-dom/cjs/react-dom.development.js:10201:3)
+      at completeWork (node_modules/react-dom/cjs/react-dom.development.js:19470:17)
+      at completeUnitOfWork (node_modules/react-dom/cjs/react-dom.development.js:22812:16)
+      at performUnitOfWork (node_modules/react-dom/cjs/react-dom.development.js:22787:5)
+      at workLoopSync (node_modules/react-dom/cjs/react-dom.development.js:22707:5)
+      at renderRootSync (node_modules/react-dom/cjs/react-dom.development.js:22670:7)
+      at performSyncWorkOnRoot (node_modules/react-dom/cjs/react-dom.development.js:22293:18)
+      at scheduleUpdateOnFiber (node_modules/react-dom/cjs/react-dom.development.js:21881:7)
+      at updateContainer (node_modules/react-dom/cjs/react-dom.development.js:25482:3)
+      at node_modules/react-dom/cjs/react-dom.development.js:26021:7
+      at unbatchedUpdates (node_modules/react-dom/cjs/react-dom.development.js:22431:12)
+      at legacyRenderSubtreeIntoContainer (node_modules/react-dom/cjs/react-dom.development.js:26020:5)
+      at Object.render (node_modules/react-dom/cjs/react-dom.development.js:26103:10)
+      at node_modules/@testing-library/react/dist/pure.js:101:25
+      at batchedUpdates$1 (node_modules/react-dom/cjs/react-dom.development.js:22380:12)
+      at act (node_modules/react-dom/cjs/react-dom-test-utils.development.js:1042:14)
+      at render (node_modules/@testing-library/react/dist/pure.js:97:26)
+      at src/__tests__/Cart.test.js:134:13
+      at batchedUpdates$1 (node_modules/react-dom/cjs/react-dom.development.js:22380:12)
+      at act (node_modules/react-dom/cjs/react-dom-test-utils.development.js:1042:14)
+      at Object.<anonymous> (src/__tests__/Cart.test.js:133:14)
+
+  console.error
+    Warning: React does not recognize the `Item` prop on a DOM element. If you intentionally want it to appear in the DOM as a custom attribute, spell it as lowercase `item` instead. If you accidentally passed it from a parent component, remove it from the DOM element.
+        at div
+        at MuiGrid-***** (/nikitarodge1-ME_QKART_FRONTEND_V2-b23b8513-5e5c-4574-b571-77acc93fe3e1/nikitarodge1-ME_QKART_FRONTEND_V2/node_modules/@emotion/react/dist/emotion-element-f93e57b0.cjs.dev.js:62:23)
+        at Grid (/nikitarodge1-ME_QKART_FRONTEND_V2-b23b8513-5e5c-4574-b571-77acc93fe3e1/nikitarodge1-ME_QKART_FRONTEND_V2/node_modules/@mui/material/node/Grid/Grid.js:381:49)
+        at div
+        at Products (/nikitarodge1-ME_QKART_FRONTEND_V2-b23b8513-5e5c-4574-b571-77acc93fe3e1/nikitarodge1-ME_QKART_FRONTEND_V2/src/components/Products.js:32:42)
+        at Router (/nikitarodge1-ME_QKART_FRONTEND_V2-b23b8513-5e5c-4574-b571-77acc93fe3e1/nikitarodge1-ME_QKART_FRONTEND_V2/node_modules/react-router/cjs/react-router.js:283:30)
+        at SnackbarProvider (/nikitarodge1-ME_QKART_FRONTEND_V2-b23b8513-5e5c-4574-b571-77acc93fe3e1/nikitarodge1-ME_QKART_FRONTEND_V2/node_modules/notistack/src/SnackbarProvider.tsx:30:9)
+
+    [0m [90m 85 |[39m
+     [90m 86 |[39m     [36mawait[39m act([36masync[39m () [33m=>[39m {
+    [31m[1m>[22m[39m[90m 87 |[39m       render([33mProductDOMTree[39m(history))[33m;[39m
+     [90m    |[39m             [31m[1m^[22m[39m
+     [90m 88 |[39m     })[33m;[39m
+     [90m 89 |[39m   })[33m;[39m
+     [90m 90 |[39m[0m
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
+      at validateProperty$1 (node_modules/react-dom/cjs/react-dom.development.js:3513:7)
+      at warnUnknownProperties (node_modules/react-dom/cjs/react-dom.development.js:3559:21)
+      at validateProperties$2 (node_modules/react-dom/cjs/react-dom.development.js:3583:3)
+      at validatePropertiesInDevelopment (node_modules/react-dom/cjs/react-dom.development.js:8765:5)
+      at setInitialProperties (node_modules/react-dom/cjs/react-dom.development.js:9041:5)
+      at finalizeInitialChildren (node_modules/react-dom/cjs/react-dom.development.js:10201:3)
+      at completeWork (node_modules/react-dom/cjs/react-dom.development.js:19470:17)
+      at completeUnitOfWork (node_modules/react-dom/cjs/react-dom.development.js:22812:16)
+      at performUnitOfWork (node_modules/react-dom/cjs/react-dom.development.js:22787:5)
+      at workLoopSync (node_modules/react-dom/cjs/react-dom.development.js:22707:5)
+      at renderRootSync (node_modules/react-dom/cjs/react-dom.development.js:22670:7)
+      at performSyncWorkOnRoot (node_modules/react-dom/cjs/react-dom.development.js:22293:18)
+      at scheduleUpdateOnFiber (node_modules/react-dom/cjs/react-dom.development.js:21881:7)
+      at updateContainer (node_modules/react-dom/cjs/react-dom.development.js:25482:3)
+      at node_modules/react-dom/cjs/react-dom.development.js:26021:7
+      at unbatchedUpdates (node_modules/react-dom/cjs/react-dom.development.js:22431:12)
+      at legacyRenderSubtreeIntoContainer (node_modules/react-dom/cjs/react-dom.development.js:26020:5)
+      at Object.render (node_modules/react-dom/cjs/react-dom.development.js:26103:10)
+      at node_modules/@testing-library/react/dist/pure.js:101:25
+      at batchedUpdates$1 (node_modules/react-dom/cjs/react-dom.development.js:22380:12)
+      at act (node_modules/react-dom/cjs/react-dom-test-utils.development.js:1042:14)
+      at render (node_modules/@testing-library/react/dist/pure.js:97:26)
+      at src/__tests__/Products.test.js:87:13
+      at batchedUpdates$1 (node_modules/react-dom/cjs/react-dom.development.js:22380:12)
+      at act (node_modules/react-dom/cjs/react-dom-test-utils.development.js:1042:14)
+      at Object.<anonymous> (src/__tests__/Products.test.js:86:14)
+
+  console.error
+    Warning: Failed prop type: The prop `spacing` of `Grid` can only be used together with the `container` prop.
+        at Grid (/nikitarodge1-ME_QKART_FRONTEND_V2-b23b8513-5e5c-4574-b571-77acc93fe3e1/nikitarodge1-ME_QKART_FRONTEND_V2/node_modules/@mui/material/node/Grid/Grid.js:381:49)
+        at Products (/nikitarodge1-ME_QKART_FRONTEND_V2-b23b8513-5e5c-4574-b571-77acc93fe3e1/nikitarodge1-ME_QKART_FRONTEND_V2/src/components/Products.js:32:42)
+        at Router (/nikitarodge1-ME_QKART_FRONTEND_V2-b23b8513-5e5c-4574-b571-77acc93fe3e1/nikitarodge1-ME_QKART_FRONTEND_V2/node_modules/react-router/cjs/react-router.js:283:30)
+        at SnackbarProvider (/nikitarodge1-ME_QKART_FRONTEND_V2-b23b8513-5e5c-4574-b571-77acc93fe3e1/nikitarodge1-ME_QKART_FRONTEND_V2/node_modules/notistack/src/SnackbarProvider.tsx:30:9)
+
+    [0m [90m 439 |[39m          [33m<[39m[33m/[39m[33mGrid[39m[33m>[39m
+     [90m 440 |[39m        [33m<[39m[33m/[39m[33mGrid[39m[33m>[39m
+    [31m[1m>[22m[39m[90m 441 |[39m                         [33m<[39m[33mGrid[39m [33mItem[39m spacing[33m=[39m{{ xs[33m:[39m [35m2[39m[33m,[39m md[33m:[39m [35m3[39m[33m,[39m lg[33m:[39m [35m1[39m }}[33m>[39m
+     [90m     |[39m                         [31m[1m^[22m[39m
+     [90m 442 |[39m                         [33m<[39m[33mGrid[39m container spacing[33m=[39m{{ xs[33m:[39m [35m2[39m[33m,[39m md[33m:[39m [35m3[39m }} columns[33m=[39m{{ xs[33m:[39m [35m4[39m[33m,[39m sm[33m:[39m [35m8[39m[33m,[39m md[33m:[39m [35m16[39m }}[33m>[39m
+     [90m 443 |[39m                           {productData[33m.[39mmap((x) [33m=>[39m (
+     [90m 444 |[39m                             [33m<[39m[33mGrid[39m item md[33m=[39m{[35m4[39m} sm[33m=[39m{[35m12[39m}  key[33m=[39m{x[[32m'_id'[39m]}[33m>[39m[0m
+
+      at printWarning (node_modules/react/cjs/react-jsx-dev-runtime.development.js:117:30)
+      at error (node_modules/react/cjs/react-jsx-dev-runtime.development.js:93:5)
+      at checkPropTypes (node_modules/react/cjs/react-jsx-dev-runtime.development.js:620:11)
+      at validatePropTypes (node_modules/react/cjs/react-jsx-dev-runtime.development.js:1072:7)
+      at jsxWithValidation (node_modules/react/cjs/react-jsx-dev-runtime.development.js:1192:7)
+      at Products (src/components/Products.js:441:25)
+      at renderWithHooks (node_modules/react-dom/cjs/react-dom.development.js:14985:18)
+      at updateFunctionComponent (node_modules/react-dom/cjs/react-dom.development.js:17356:20)
+      at beginWork (node_modules/react-dom/cjs/react-dom.development.js:19063:16)
+      at beginWork$1 (node_modules/react-dom/cjs/react-dom.development.js:23940:14)
+      at performUnitOfWork (node_modules/react-dom/cjs/react-dom.development.js:22779:12)
+      at workLoopSync (node_modules/react-dom/cjs/react-dom.development.js:22707:5)
+      at renderRootSync (node_modules/react-dom/cjs/react-dom.development.js:22670:7)
+      at performSyncWorkOnRoot (node_modules/react-dom/cjs/react-dom.development.js:22293:18)
+      at node_modules/react-dom/cjs/react-dom.development.js:11327:26
+      at unstable_runWithPriority (node_modules/scheduler/cjs/scheduler.development.js:468:12)
+      at runWithPriority$1 (node_modules/react-dom/cjs/react-dom.development.js:11276:10)
+      at flushSyncCallbackQueueImpl (node_modules/react-dom/cjs/react-dom.development.js:11322:9)
+      at flushSyncCallbackQueue (node_modules/react-dom/cjs/react-dom.development.js:11309:3)
+      at scheduleUpdateOnFiber (node_modules/react-dom/cjs/react-dom.development.js:21893:9)
+      at updateUserLoggedIn (node_modules/react-dom/cjs/react-dom.development.js:16139:5)
+      at onLoad (src/components/Products.js:150:9)
+
+  console.error
+    Warning: Failed prop type: The prop `md` of `Grid` can only be used together with the `item` prop.
+        at Grid (/nikitarodge1-ME_QKART_FRONTEND_V2-b23b8513-5e5c-4574-b571-77acc93fe3e1/nikitarodge1-ME_QKART_FRONTEND_V2/node_modules/@mui/material/node/Grid/Grid.js:381:49)
+        at Products (/nikitarodge1-ME_QKART_FRONTEND_V2-b23b8513-5e5c-4574-b571-77acc93fe3e1/nikitarodge1-ME_QKART_FRONTEND_V2/src/components/Products.js:32:42)
+        at Router (/nikitarodge1-ME_QKART_FRONTEND_V2-b23b8513-5e5c-4574-b571-77acc93fe3e1/nikitarodge1-ME_QKART_FRONTEND_V2/node_modules/react-router/cjs/react-router.js:283:30)
+        at SnackbarProvider (/nikitarodge1-ME_QKART_FRONTEND_V2-b23b8513-5e5c-4574-b571-77acc93fe3e1/nikitarodge1-ME_QKART_FRONTEND_V2/node_modules/notistack/src/SnackbarProvider.tsx:30:9)
+
+    [0m [90m 427 |[39m                   [33m<[39m[33m/[39m[33mGrid[39m[33m>[39m[33m:[39m
+     [90m 428 |[39m                         [33m<[39m[33mGrid[39m container[33m>[39m
+    [31m[1m>[22m[39m[90m 429 |[39m                         [33m<[39m [33mGrid[39m [33mItem[39m md[33m=[39m{[35m9[39m} justifyContent[33m=[39m[32m"center"[39m[33m>[39m
+     [90m     |[39m                         [31m[1m^[22m[39m
+     [90m 430 |[39m                         [33m<[39m[33mGrid[39m [33mItem[39m [33m>[39m
+     [90m 431 |[39m
+     [90m 432 |[39m          [33m<[39m[33mGrid[39m item className[33m=[39m[32m"product-grid"[39m[33m>[39m[0m
+
+      at printWarning (node_modules/react/cjs/react-jsx-dev-runtime.development.js:117:30)
+      at error (node_modules/react/cjs/react-jsx-dev-runtime.development.js:93:5)
+      at checkPropTypes (node_modules/react/cjs/react-jsx-dev-runtime.development.js:620:11)
+      at validatePropTypes (node_modules/react/cjs/react-jsx-dev-runtime.development.js:1072:7)
+      at jsxWithValidation (node_modules/react/cjs/react-jsx-dev-runtime.development.js:1192:7)
+      at Products (src/components/Products.js:429:25)
+      at renderWithHooks (node_modules/react-dom/cjs/react-dom.development.js:14985:18)
+      at updateFunctionComponent (node_modules/react-dom/cjs/react-dom.development.js:17356:20)
+      at beginWork (node_modules/react-dom/cjs/react-dom.development.js:19063:16)
+      at beginWork$1 (node_modules/react-dom/cjs/react-dom.development.js:23940:14)
+      at performUnitOfWork (node_modules/react-dom/cjs/react-dom.development.js:22779:12)
+      at workLoopSync (node_modules/react-dom/cjs/react-dom.development.js:22707:5)
+      at renderRootSync (node_modules/react-dom/cjs/react-dom.development.js:22670:7)
+      at performSyncWorkOnRoot (node_modules/react-dom/cjs/react-dom.development.js:22293:18)
+      at node_modules/react-dom/cjs/react-dom.development.js:11327:26
+      at unstable_runWithPriority (node_modules/scheduler/cjs/scheduler.development.js:468:12)
+      at runWithPriority$1 (node_modules/react-dom/cjs/react-dom.development.js:11276:10)
+      at flushSyncCallbackQueueImpl (node_modules/react-dom/cjs/react-dom.development.js:11322:9)
+      at flushSyncCallbackQueue (node_modules/react-dom/cjs/react-dom.development.js:11309:3)
+      at scheduleUpdateOnFiber (node_modules/react-dom/cjs/react-dom.development.js:21893:9)
+      at updateUserLoggedIn (node_modules/react-dom/cjs/react-dom.development.js:16139:5)
+      at onLoad (src/components/Products.js:150:9)
+
+[0;33mOne of your dependencies, babel-preset-react-app, is importing the
+"@babel/plugin-proposal-private-property-in-object" package without
+declaring it in its dependencies. This is currently working because
+"@babel/plugin-proposal-private-property-in-object" is already in your
+node_modules folder for unrelated reasons, but it [1mmay break at any time[0;33m.
+
+babel-preset-react-app is part of the create-react-app project, [1mwhich
+is not maintianed anymore[0;33m. It is thus unlikely that this bug will
+ever be fixed. Add "@babel/plugin-proposal-private-property-in-object" to
+your devDependencies to work around this error. This will make this message
+go away.[0m
+  
+[0;33mOne of your dependencies, babel-preset-react-app, is importing the
+"@babel/plugin-proposal-private-property-in-object" package without
+declaring it in its dependencies. This is currently working because
+"@babel/plugin-proposal-private-property-in-object" is already in your
+node_modules folder for unrelated reasons, but it [1mmay break at any time[0;33m.
+
+babel-preset-react-app is part of the create-react-app project, [1mwhich
+is not maintianed anymore[0;33m. It is thus unlikely that this bug will
+ever be fixed. Add "@babel/plugin-proposal-private-property-in-object" to
+your devDependencies to work around this error. This will make this message
+go away.[0m
+  
+  console.error
+    Warning: Failed prop type: The prop `spacing` of `Grid` can only be used together with the `container` prop.
+        at Grid (/nikitarodge1-ME_QKART_FRONTEND_V2-b23b8513-5e5c-4574-b571-77acc93fe3e1/nikitarodge1-ME_QKART_FRONTEND_V2/node_modules/@mui/material/node/Grid/Grid.js:381:49)
+        at Products (/nikitarodge1-ME_QKART_FRONTEND_V2-b23b8513-5e5c-4574-b571-77acc93fe3e1/nikitarodge1-ME_QKART_FRONTEND_V2/src/components/Products.js:32:42)
+        at Router (/nikitarodge1-ME_QKART_FRONTEND_V2-b23b8513-5e5c-4574-b571-77acc93fe3e1/nikitarodge1-ME_QKART_FRONTEND_V2/node_modules/react-router/cjs/react-router.js:283:30)
+        at SnackbarProvider (/nikitarodge1-ME_QKART_FRONTEND_V2-b23b8513-5e5c-4574-b571-77acc93fe3e1/nikitarodge1-ME_QKART_FRONTEND_V2/node_modules/notistack/src/SnackbarProvider.tsx:30:9)
+
+    [0m [90m 439 |[39m          [33m<[39m[33m/[39m[33mGrid[39m[33m>[39m
+     [90m 440 |[39m        [33m<[39m[33m/[39m[33mGrid[39m[33m>[39m
+    [31m[1m>[22m[39m[90m 441 |[39m                         [33m<[39m[33mGrid[39m [33mItem[39m spacing[33m=[39m{{ xs[33m:[39m [35m2[39m[33m,[39m md[33m:[39m [35m3[39m[33m,[39m lg[33m:[39m [35m1[39m }}[33m>[39m
+     [90m     |[39m                         [31m[1m^[22m[39m
+     [90m 442 |[39m                         [33m<[39m[33mGrid[39m container spacing[33m=[39m{{ xs[33m:[39m [35m2[39m[33m,[39m md[33m:[39m [35m3[39m }} columns[33m=[39m{{ xs[33m:[39m [35m4[39m[33m,[39m sm[33m:[39m [35m8[39m[33m,[39m md[33m:[39m [35m16[39m }}[33m>[39m
+     [90m 443 |[39m                           {productData[33m.[39mmap((x) [33m=>[39m (
+     [90m 444 |[39m                             [33m<[39m[33mGrid[39m item md[33m=[39m{[35m4[39m} sm[33m=[39m{[35m12[39m}  key[33m=[39m{x[[32m'_id'[39m]}[33m>[39m[0m
+
+      at printWarning (node_modules/react/cjs/react-jsx-dev-runtime.development.js:117:30)
+      at error (node_modules/react/cjs/react-jsx-dev-runtime.development.js:93:5)
+      at checkPropTypes (node_modules/react/cjs/react-jsx-dev-runtime.development.js:620:11)
+      at validatePropTypes (node_modules/react/cjs/react-jsx-dev-runtime.development.js:1072:7)
+      at jsxWithValidation (node_modules/react/cjs/react-jsx-dev-runtime.development.js:1192:7)
+      at Products (src/components/Products.js:441:25)
+      at renderWithHooks (node_modules/react-dom/cjs/react-dom.development.js:14985:18)
+      at updateFunctionComponent (node_modules/react-dom/cjs/react-dom.development.js:17356:20)
+      at beginWork (node_modules/react-dom/cjs/react-dom.development.js:19063:16)
+      at beginWork$1 (node_modules/react-dom/cjs/react-dom.development.js:23940:14)
+      at performUnitOfWork (node_modules/react-dom/cjs/react-dom.development.js:22779:12)
+      at workLoopSync (node_modules/react-dom/cjs/react-dom.development.js:22707:5)
+      at renderRootSync (node_modules/react-dom/cjs/react-dom.development.js:22670:7)
+      at performSyncWorkOnRoot (node_modules/react-dom/cjs/react-dom.development.js:22293:18)
+      at node_modules/react-dom/cjs/react-dom.development.js:11327:26
+      at unstable_runWithPriority (node_modules/scheduler/cjs/scheduler.development.js:468:12)
+      at runWithPriority$1 (node_modules/react-dom/cjs/react-dom.development.js:11276:10)
+      at flushSyncCallbackQueueImpl (node_modules/react-dom/cjs/react-dom.development.js:11322:9)
+      at flushSyncCallbackQueue (node_modules/react-dom/cjs/react-dom.development.js:11309:3)
+      at scheduleUpdateOnFiber (node_modules/react-dom/cjs/react-dom.development.js:21893:9)
+      at updateUserLoggedIn (node_modules/react-dom/cjs/react-dom.development.js:16139:5)
+      at onLoad (src/components/Products.js:150:9)
+
+  console.error
+    Warning: Failed prop type: The prop `md` of `Grid` can only be used together with the `item` prop.
+        at Grid (/nikitarodge1-ME_QKART_FRONTEND_V2-b23b8513-5e5c-4574-b571-77acc93fe3e1/nikitarodge1-ME_QKART_FRONTEND_V2/node_modules/@mui/material/node/Grid/Grid.js:381:49)
+        at Products (/nikitarodge1-ME_QKART_FRONTEND_V2-b23b8513-5e5c-4574-b571-77acc93fe3e1/nikitarodge1-ME_QKART_FRONTEND_V2/src/components/Products.js:32:42)
+        at Router (/nikitarodge1-ME_QKART_FRONTEND_V2-b23b8513-5e5c-4574-b571-77acc93fe3e1/nikitarodge1-ME_QKART_FRONTEND_V2/node_modules/react-router/cjs/react-router.js:283:30)
+        at SnackbarProvider (/nikitarodge1-ME_QKART_FRONTEND_V2-b23b8513-5e5c-4574-b571-77acc93fe3e1/nikitarodge1-ME_QKART_FRONTEND_V2/node_modules/notistack/src/SnackbarProvider.tsx:30:9)
+
+    [0m [90m 427 |[39m                   [33m<[39m[33m/[39m[33mGrid[39m[33m>[39m[33m:[39m
+     [90m 428 |[39m                         [33m<[39m[33mGrid[39m container[33m>[39m
+    [31m[1m>[22m[39m[90m 429 |[39m                         [33m<[39m [33mGrid[39m [33mItem[39m md[33m=[39m{[35m9[39m} justifyContent[33m=[39m[32m"center"[39m[33m>[39m
+     [90m     |[39m                         [31m[1m^[22m[39m
+     [90m 430 |[39m                         [33m<[39m[33mGrid[39m [33mItem[39m [33m>[39m
+     [90m 431 |[39m
+     [90m 432 |[39m          [33m<[39m[33mGrid[39m item className[33m=[39m[32m"product-grid"[39m[33m>[39m[0m
+
+      at printWarning (node_modules/react/cjs/react-jsx-dev-runtime.development.js:117:30)
+      at error (node_modules/react/cjs/react-jsx-dev-runtime.development.js:93:5)
+      at checkPropTypes (node_modules/react/cjs/react-jsx-dev-runtime.development.js:620:11)
+      at validatePropTypes (node_modules/react/cjs/react-jsx-dev-runtime.development.js:1072:7)
+      at jsxWithValidation (node_modules/react/cjs/react-jsx-dev-runtime.development.js:1192:7)
+      at Products (src/components/Products.js:429:25)
+      at renderWithHooks (node_modules/react-dom/cjs/react-dom.development.js:14985:18)
+      at updateFunctionComponent (node_modules/react-dom/cjs/react-dom.development.js:17356:20)
+      at beginWork (node_modules/react-dom/cjs/react-dom.development.js:19063:16)
+      at beginWork$1 (node_modules/react-dom/cjs/react-dom.development.js:23940:14)
+      at performUnitOfWork (node_modules/react-dom/cjs/react-dom.development.js:22779:12)
+      at workLoopSync (node_modules/react-dom/cjs/react-dom.development.js:22707:5)
+      at renderRootSync (node_modules/react-dom/cjs/react-dom.development.js:22670:7)
+      at performSyncWorkOnRoot (node_modules/react-dom/cjs/react-dom.development.js:22293:18)
+      at node_modules/react-dom/cjs/react-dom.development.js:11327:26
+      at unstable_runWithPriority (node_modules/scheduler/cjs/scheduler.development.js:468:12)
+      at runWithPriority$1 (node_modules/react-dom/cjs/react-dom.development.js:11276:10)
+      at flushSyncCallbackQueueImpl (node_modules/react-dom/cjs/react-dom.development.js:11322:9)
+      at flushSyncCallbackQueue (node_modules/react-dom/cjs/react-dom.development.js:11309:3)
+      at scheduleUpdateOnFiber (node_modules/react-dom/cjs/react-dom.development.js:21893:9)
+      at updateUserLoggedIn (node_modules/react-dom/cjs/react-dom.development.js:16139:5)
+      at onLoad (src/components/Products.js:150:9)
+
+FAIL src/__tests__/Cart.test.js (30.991 s)
+  Cart Component
+    ✓ should perform an API call to fetch products (1413 ms)
+    ✓ should make GET request to the get cart items (530 ms)
+    ✓ should show items in cart view by parsing the response data (588 ms)
+    ✓ should be able to increase quantity of product in cart (600 ms)
+    ✓ should be able to decrease quantity of product in cart (553 ms)
+    ✓ removes the item from cart if quantity is less than one (565 ms)
+    ✕ adds a new item when 'ADD TO CART' button is clicked (460 ms)
+    ✕ does not add a new item with the 'ADD TO CART' button if already in cart (384 ms)
+    ✕ should have a Checkout button (405 ms)
+    ✕ has Checkout button to redirect to /checkout page (334 ms)
+
+  ● Cart Component › adds a new item when 'ADD TO CART' button is clicked
+
+    SyntaxError: 'h1' is not a valid selector
+
+    [0m [90m 247 |[39m
+     [90m 248 |[39m   it([32m"adds a new item when 'ADD TO CART' button is clicked"[39m[33m,[39m [36masync[39m () [33m=>[39m {
+    [31m[1m>[22m[39m[90m 249 |[39m     [36mconst[39m btn [33m=[39m screen[33m.[39mgetAllByRole([32m"button"[39m[33m,[39m { name[33m:[39m [35m/add to cart/i[39m })[[35m2[39m][33m;[39m
+     [90m     |[39m                        [31m[1m^[22m[39m
+     [90m 250 |[39m
+     [90m 251 |[39m     expect(([36mawait[39m screen[33m.[39mfindAllByText([35m/Yonex/i[39m))[33m.[39mlength)[33m.[39mtoEqual([35m1[39m)[33m;[39m
+     [90m 252 |[39m[0m
+
+      at emit (node_modules/nwsapi/src/nwsapi.js:557:17)
+      at Object._matches [as match] (node_modules/nwsapi/src/nwsapi.js:1397:9)
+      at SVGSVGElementImpl.ElementImpl.matches (node_modules/jsdom/lib/jsdom/living/nodes/Element-impl.js:571:18)
+      at SVGSVGElement.matches (node_modules/jsdom/lib/jsdom/living/generated/Element.js:630:34)
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/role-helpers.js:156:19
+      at getImplicitAriaRoles (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/role-helpers.js:95:9)
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/queries/role.js:115:65
+          at Array.filter (<anonymous>)
+      at queryAllByRole (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/queries/role.js:95:54)
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:87:17
+      at getAllByRole (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:130:15)
+      at Object.<anonymous> (src/__tests__/Cart.test.js:249:24)
+
+  ● Cart Component › does not add a new item with the 'ADD TO CART' button if already in cart
+
+    SyntaxError: 'h1' is not a valid selector
+
+    [0m [90m 259 |[39m
+     [90m 260 |[39m   it([32m"does not add a new item with the 'ADD TO CART' button if already in cart"[39m[33m,[39m [36masync[39m () [33m=>[39m {
+    [31m[1m>[22m[39m[90m 261 |[39m     [36mconst[39m btn [33m=[39m screen[33m.[39mgetAllByRole([32m"button"[39m[33m,[39m { name[33m:[39m [35m/add to cart/i[39m })[[35m0[39m][33m;[39m
+     [90m     |[39m                        [31m[1m^[22m[39m
+     [90m 262 |[39m
+     [90m 263 |[39m     [36mawait[39m act([36masync[39m () [33m=>[39m {
+     [90m 264 |[39m       userEvent[33m.[39mclick(btn)[33m;[39m[0m
+
+      at emit (node_modules/nwsapi/src/nwsapi.js:557:17)
+      at Object._matches [as match] (node_modules/nwsapi/src/nwsapi.js:1397:9)
+      at SVGSVGElementImpl.ElementImpl.matches (node_modules/jsdom/lib/jsdom/living/nodes/Element-impl.js:571:18)
+      at SVGSVGElement.matches (node_modules/jsdom/lib/jsdom/living/generated/Element.js:630:34)
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/role-helpers.js:156:19
+      at getImplicitAriaRoles (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/role-helpers.js:95:9)
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/queries/role.js:115:65
+          at Array.filter (<anonymous>)
+      at queryAllByRole (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/queries/role.js:95:54)
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:87:17
+      at getAllByRole (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:130:15)
+      at Object.<anonymous> (src/__tests__/Cart.test.js:261:24)
+
+  ● Cart Component › should have a Checkout button
+
+    SyntaxError: 'h1' is not a valid selector
+
+    [0m [90m 270 |[39m
+     [90m 271 |[39m   it([32m"should have a Checkout button"[39m[33m,[39m () [33m=>[39m {
+    [31m[1m>[22m[39m[90m 272 |[39m     [36mconst[39m btn [33m=[39m screen[33m.[39mgetByRole([32m"button"[39m[33m,[39m { name[33m:[39m [35m/checkout/i[39m })[33m;[39m
+     [90m     |[39m                        [31m[1m^[22m[39m
+     [90m 273 |[39m     expect(btn)[33m.[39mtoBeInTheDocument()[33m;[39m
+     [90m 274 |[39m   })[33m;[39m
+     [90m 275 |[39m[0m
+
+      at emit (node_modules/nwsapi/src/nwsapi.js:557:17)
+      at Object._matches [as match] (node_modules/nwsapi/src/nwsapi.js:1397:9)
+      at SVGSVGElementImpl.ElementImpl.matches (node_modules/jsdom/lib/jsdom/living/nodes/Element-impl.js:571:18)
+      at SVGSVGElement.matches (node_modules/jsdom/lib/jsdom/living/generated/Element.js:630:34)
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/role-helpers.js:156:19
+      at getImplicitAriaRoles (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/role-helpers.js:95:9)
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/queries/role.js:115:65
+          at Array.filter (<anonymous>)
+      at queryAllByRole (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/queries/role.js:95:54)
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:87:17
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:62:17
+      at getByRole (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:111:19)
+      at Object.<anonymous> (src/__tests__/Cart.test.js:272:24)
+
+  ● Cart Component › has Checkout button to redirect to /checkout page
+
+    SyntaxError: 'h1' is not a valid selector
+
+    [0m [90m 275 |[39m
+     [90m 276 |[39m   it([32m"has Checkout button to redirect to /checkout page"[39m[33m,[39m [36masync[39m () [33m=>[39m {
+    [31m[1m>[22m[39m[90m 277 |[39m     [36mconst[39m btn [33m=[39m screen[33m.[39mgetByRole([32m"button"[39m[33m,[39m { name[33m:[39m [35m/checkout/i[39m })[33m;[39m
+     [90m     |[39m                        [31m[1m^[22m[39m
+     [90m 278 |[39m
+     [90m 279 |[39m     act(() [33m=>[39m {
+     [90m 280 |[39m       userEvent[33m.[39mclick(btn)[33m;[39m[0m
+
+      at emit (node_modules/nwsapi/src/nwsapi.js:557:17)
+      at Object._matches [as match] (node_modules/nwsapi/src/nwsapi.js:1397:9)
+      at SVGSVGElementImpl.ElementImpl.matches (node_modules/jsdom/lib/jsdom/living/nodes/Element-impl.js:571:18)
+      at SVGSVGElement.matches (node_modules/jsdom/lib/jsdom/living/generated/Element.js:630:34)
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/role-helpers.js:156:19
+      at getImplicitAriaRoles (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/role-helpers.js:95:9)
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/queries/role.js:115:65
+          at Array.filter (<anonymous>)
+      at queryAllByRole (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/queries/role.js:95:54)
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:87:17
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:62:17
+      at getByRole (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:111:19)
+      at Object.<anonymous> (src/__tests__/Cart.test.js:277:24)
+
+  console.log
+    Cannot read property 'data' of undefined
+
+      at performSearch (src/components/Products.js:121:15)
+
+FAIL src/__tests__/Register.test.js (32.571 s)
+  Register Page
+    ✕ should have a Register form title (411 ms)
+    ✕ should have header with logo (93 ms)
+    ✕ should have header with 'back to explore' button (107 ms)
+    ✕ should have 'login here' link (81 ms)
+    ✕ should show error message if username empty (546 ms)
+    ✕ should show error message if username < 6 characters (845 ms)
+    ✕ should show error message if password empty (273 ms)
+    ✕ should show error message if password < 6 chars long (402 ms)
+    ✕ should show error message if password and confirm password are not same (751 ms)
+    ✕ should send a POST request with axios (891 ms)
+    ✕ should send a POST request to server with correct arguments (842 ms)
+    ✕ should show success alert if request succeeds (708 ms)
+    ✕ should show error alert with message sent from backend if request fails (561 ms)
+    ✕ should redirect to login after success (653 ms)
+    ✕ 'back to explore' button on Header should route to products (74 ms)
+
+  ● Register Page › should have a Register form title
+
+    SyntaxError: 'h1' is not a valid selector
+
+    [0m [90m 52 |[39m   [90m//Login Form Has Heading[39m
+     [90m 53 |[39m   it([32m"should have a Register form title"[39m[33m,[39m () [33m=>[39m {
+    [31m[1m>[22m[39m[90m 54 |[39m     [36mconst[39m heading [33m=[39m screen[33m.[39mgetByRole([32m"heading"[39m[33m,[39m { name[33m:[39m [32m"Register"[39m })[33m;[39m
+     [90m    |[39m                            [31m[1m^[22m[39m
+     [90m 55 |[39m     expect(heading)[33m.[39mtoBeInTheDocument()[33m;[39m
+     [90m 56 |[39m   })[33m;[39m
+     [90m 57 |[39m[0m
+
+      at emit (node_modules/nwsapi/src/nwsapi.js:557:17)
+      at Object._matches [as match] (node_modules/nwsapi/src/nwsapi.js:1397:9)
+      at SVGSVGElementImpl.ElementImpl.matches (node_modules/jsdom/lib/jsdom/living/nodes/Element-impl.js:571:18)
+      at SVGSVGElement.matches (node_modules/jsdom/lib/jsdom/living/generated/Element.js:630:34)
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/role-helpers.js:156:19
+      at getImplicitAriaRoles (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/role-helpers.js:95:9)
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/queries/role.js:115:65
+          at Array.filter (<anonymous>)
+      at queryAllByRole (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/queries/role.js:95:54)
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:87:17
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:62:17
+      at getByRole (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:111:19)
+      at Object.<anonymous> (src/__tests__/Register.test.js:54:28)
+
+  ● Register Page › should have header with logo
+
+    SyntaxError: 'h1' is not a valid selector
+
+    [0m [90m 57 |[39m
+     [90m 58 |[39m   it([32m"should have header with logo"[39m[33m,[39m () [33m=>[39m {
+    [31m[1m>[22m[39m[90m 59 |[39m     [36mconst[39m images [33m=[39m screen[33m.[39mgetAllByRole([32m"img"[39m)[33m;[39m
+     [90m    |[39m                           [31m[1m^[22m[39m
+     [90m 60 |[39m     [36mconst[39m logo [33m=[39m images[33m.[39mfind(
+     [90m 61 |[39m       (img) [33m=>[39m img[33m.[39mgetAttribute([32m"src"[39m) [33m===[39m [32m"logo_dark.svg"[39m
+     [90m 62 |[39m     )[33m;[39m[0m
+
+      at emit (node_modules/nwsapi/src/nwsapi.js:557:17)
+      at Object._matches [as match] (node_modules/nwsapi/src/nwsapi.js:1397:9)
+      at SVGSVGElementImpl.ElementImpl.matches (node_modules/jsdom/lib/jsdom/living/nodes/Element-impl.js:571:18)
+      at SVGSVGElement.matches (node_modules/jsdom/lib/jsdom/living/generated/Element.js:630:34)
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/role-helpers.js:156:19
+      at getImplicitAriaRoles (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/role-helpers.js:95:9)
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/queries/role.js:115:65
+          at Array.filter (<anonymous>)
+      at queryAllByRole (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/queries/role.js:95:54)
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:87:17
+      at getAllByRole (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:130:15)
+      at Object.<anonymous> (src/__tests__/Register.test.js:59:27)
+
+  ● Register Page › should have header with 'back to explore' button
+
+    SyntaxError: 'h1' is not a valid selector
+
+    [0m [90m 66 |[39m   [90m//Header has back to explore button[39m
+     [90m 67 |[39m   it([32m"should have header with 'back to explore' button"[39m[33m,[39m () [33m=>[39m {
+    [31m[1m>[22m[39m[90m 68 |[39m     [36mconst[39m exploreButton [33m=[39m screen[33m.[39mgetByRole([32m"button"[39m[33m,[39m {
+     [90m    |[39m                                  [31m[1m^[22m[39m
+     [90m 69 |[39m       name[33m:[39m [35m/back to explore/i[39m[33m,[39m
+     [90m 70 |[39m     })[33m;[39m
+     [90m 71 |[39m     expect(exploreButton)[33m.[39mtoBeInTheDocument()[33m;[39m[0m
+
+      at emit (node_modules/nwsapi/src/nwsapi.js:557:17)
+      at Object._matches [as match] (node_modules/nwsapi/src/nwsapi.js:1397:9)
+      at SVGSVGElementImpl.ElementImpl.matches (node_modules/jsdom/lib/jsdom/living/nodes/Element-impl.js:571:18)
+      at SVGSVGElement.matches (node_modules/jsdom/lib/jsdom/living/generated/Element.js:630:34)
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/role-helpers.js:156:19
+      at getImplicitAriaRoles (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/role-helpers.js:95:9)
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/queries/role.js:115:65
+          at Array.filter (<anonymous>)
+      at queryAllByRole (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/queries/role.js:95:54)
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:87:17
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:62:17
+      at getByRole (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:111:19)
+      at Object.<anonymous> (src/__tests__/Register.test.js:68:34)
+
+  ● Register Page › should have 'login here' link
+
+    SyntaxError: 'h1' is not a valid selector
+
+    [0m [90m 73 |[39m
+     [90m 74 |[39m   it([32m"should have 'login here' link"[39m[33m,[39m () [33m=>[39m {
+    [31m[1m>[22m[39m[90m 75 |[39m     [36mconst[39m loginHere [33m=[39m screen[33m.[39mgetByRole([32m"link"[39m[33m,[39m { name[33m:[39m [35m/login/i[39m })[33m;[39m
+     [90m    |[39m                              [31m[1m^[22m[39m
+     [90m 76 |[39m     expect(loginHere)[33m.[39mtoBeInTheDocument()[33m;[39m
+     [90m 77 |[39m   })[33m;[39m
+     [90m 78 |[39m[0m
+
+      at emit (node_modules/nwsapi/src/nwsapi.js:557:17)
+      at Object._matches [as match] (node_modules/nwsapi/src/nwsapi.js:1397:9)
+      at SVGSVGElementImpl.ElementImpl.matches (node_modules/jsdom/lib/jsdom/living/nodes/Element-impl.js:571:18)
+      at SVGSVGElement.matches (node_modules/jsdom/lib/jsdom/living/generated/Element.js:630:34)
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/role-helpers.js:156:19
+      at getImplicitAriaRoles (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/role-helpers.js:95:9)
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/queries/role.js:115:65
+          at Array.filter (<anonymous>)
+      at queryAllByRole (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/queries/role.js:95:54)
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:87:17
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:62:17
+      at getByRole (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:111:19)
+      at Object.<anonymous> (src/__tests__/Register.test.js:75:30)
+
+  ● Register Page › should show error message if username empty
+
+    SyntaxError: 'h1' is not a valid selector
+
+    [0m [90m 84 |[39m     expect(passwordInput)[33m.[39mtoHaveValue([32m"learnbydoing"[39m)[33m;[39m
+     [90m 85 |[39m
+    [31m[1m>[22m[39m[90m 86 |[39m     userEvent[33m.[39mclick(screen[33m.[39mgetByRole([32m"button"[39m[33m,[39m { name[33m:[39m [35m/register/i[39m }))[33m;[39m
+     [90m    |[39m                            [31m[1m^[22m[39m
+     [90m 87 |[39m
+     [90m 88 |[39m     [36mconst[39m alert [33m=[39m [36mawait[39m screen[33m.[39mfindByRole([32m"alert"[39m)[33m;[39m
+     [90m 89 |[39m     expect(alert)[33m.[39mtoBeInTheDocument()[33m;[39m[0m
+
+      at emit (node_modules/nwsapi/src/nwsapi.js:557:17)
+      at Object._matches [as match] (node_modules/nwsapi/src/nwsapi.js:1397:9)
+      at SVGSVGElementImpl.ElementImpl.matches (node_modules/jsdom/lib/jsdom/living/nodes/Element-impl.js:571:18)
+      at SVGSVGElement.matches (node_modules/jsdom/lib/jsdom/living/generated/Element.js:630:34)
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/role-helpers.js:156:19
+      at getImplicitAriaRoles (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/role-helpers.js:95:9)
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/queries/role.js:115:65
+          at Array.filter (<anonymous>)
+      at queryAllByRole (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/queries/role.js:95:54)
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:87:17
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:62:17
+      at getByRole (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:111:19)
+      at Object.<anonymous> (src/__tests__/Register.test.js:86:28)
+
+  ● Register Page › should show error message if username < 6 characters
+
+    SyntaxError: 'h1' is not a valid selector
+
+    [0m [90m 102 |[39m     expect(usernameInput)[33m.[39mtoHaveValue([32m"abcde"[39m)[33m;[39m
+     [90m 103 |[39m
+    [31m[1m>[22m[39m[90m 104 |[39m     userEvent[33m.[39mclick(screen[33m.[39mgetByRole([32m"button"[39m[33m,[39m { name[33m:[39m [35m/register/i[39m }))[33m;[39m
+     [90m     |[39m                            [31m[1m^[22m[39m
+     [90m 105 |[39m
+     [90m 106 |[39m     [36mconst[39m alert [33m=[39m [36mawait[39m screen[33m.[39mfindByRole([32m"alert"[39m)[33m;[39m
+     [90m 107 |[39m     expect(alert)[33m.[39mtoBeInTheDocument()[33m;[39m[0m
+
+      at emit (node_modules/nwsapi/src/nwsapi.js:557:17)
+      at Object._matches [as match] (node_modules/nwsapi/src/nwsapi.js:1397:9)
+      at SVGSVGElementImpl.ElementImpl.matches (node_modules/jsdom/lib/jsdom/living/nodes/Element-impl.js:571:18)
+      at SVGSVGElement.matches (node_modules/jsdom/lib/jsdom/living/generated/Element.js:630:34)
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/role-helpers.js:156:19
+      at getImplicitAriaRoles (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/role-helpers.js:95:9)
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/queries/role.js:115:65
+          at Array.filter (<anonymous>)
+      at queryAllByRole (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/queries/role.js:95:54)
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:87:17
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:62:17
+      at getByRole (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:111:19)
+      at Object.<anonymous> (src/__tests__/Register.test.js:104:28)
+
+  ● Register Page › should show error message if password empty
+
+    SyntaxError: 'h1' is not a valid selector
+
+    [0m [90m 116 |[39m     expect(usernameInput)[33m.[39mtoHaveValue([32m"crio.do"[39m)[33m;[39m
+     [90m 117 |[39m
+    [31m[1m>[22m[39m[90m 118 |[39m     userEvent[33m.[39mclick(screen[33m.[39mgetByRole([32m"button"[39m[33m,[39m { name[33m:[39m [35m/register/i[39m }))[33m;[39m
+     [90m     |[39m                            [31m[1m^[22m[39m
+     [90m 119 |[39m
+     [90m 120 |[39m     [36mconst[39m alert [33m=[39m [36mawait[39m screen[33m.[39mfindByRole([32m"alert"[39m)[33m;[39m
+     [90m 121 |[39m     expect(alert)[33m.[39mtoBeInTheDocument()[33m;[39m[0m
+
+      at emit (node_modules/nwsapi/src/nwsapi.js:557:17)
+      at Object._matches [as match] (node_modules/nwsapi/src/nwsapi.js:1397:9)
+      at SVGSVGElementImpl.ElementImpl.matches (node_modules/jsdom/lib/jsdom/living/nodes/Element-impl.js:571:18)
+      at SVGSVGElement.matches (node_modules/jsdom/lib/jsdom/living/generated/Element.js:630:34)
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/role-helpers.js:156:19
+      at getImplicitAriaRoles (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/role-helpers.js:95:9)
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/queries/role.js:115:65
+          at Array.filter (<anonymous>)
+      at queryAllByRole (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/queries/role.js:95:54)
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:87:17
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:62:17
+      at getByRole (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:111:19)
+      at Object.<anonymous> (src/__tests__/Register.test.js:118:28)
+
+  ● Register Page › should show error message if password < 6 chars long
+
+    SyntaxError: 'h1' is not a valid selector
+
+    [0m [90m 132 |[39m     userEvent[33m.[39mtype(confirmPasswordInput[33m,[39m [32m"lea"[39m)[33m;[39m
+     [90m 133 |[39m
+    [31m[1m>[22m[39m[90m 134 |[39m     userEvent[33m.[39mclick(screen[33m.[39mgetByRole([32m"button"[39m[33m,[39m { name[33m:[39m [35m/register/i[39m }))[33m;[39m
+     [90m     |[39m                            [31m[1m^[22m[39m
+     [90m 135 |[39m
+     [90m 136 |[39m     [36mconst[39m alert [33m=[39m [36mawait[39m screen[33m.[39mfindByRole([32m"alert"[39m)[33m;[39m
+     [90m 137 |[39m     expect(alert)[33m.[39mtoBeInTheDocument()[33m;[39m[0m
+
+      at emit (node_modules/nwsapi/src/nwsapi.js:557:17)
+      at Object._matches [as match] (node_modules/nwsapi/src/nwsapi.js:1397:9)
+      at SVGSVGElementImpl.ElementImpl.matches (node_modules/jsdom/lib/jsdom/living/nodes/Element-impl.js:571:18)
+      at SVGSVGElement.matches (node_modules/jsdom/lib/jsdom/living/generated/Element.js:630:34)
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/role-helpers.js:156:19
+      at getImplicitAriaRoles (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/role-helpers.js:95:9)
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/queries/role.js:115:65
+          at Array.filter (<anonymous>)
+      at queryAllByRole (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/queries/role.js:95:54)
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:87:17
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:62:17
+      at getByRole (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:111:19)
+      at Object.<anonymous> (src/__tests__/Register.test.js:134:28)
+
+  ● Register Page › should show error message if password and confirm password are not same
+
+    SyntaxError: 'h1' is not a valid selector
+
+    [0m [90m 148 |[39m     userEvent[33m.[39mtype(confirmPassword[33m,[39m [32m"Password"[39m)[33m;[39m
+     [90m 149 |[39m
+    [31m[1m>[22m[39m[90m 150 |[39m     userEvent[33m.[39mclick(screen[33m.[39mgetByRole([32m"button"[39m[33m,[39m { name[33m:[39m [35m/register/i[39m }))[33m;[39m
+     [90m     |[39m                            [31m[1m^[22m[39m
+     [90m 151 |[39m
+     [90m 152 |[39m     [36mconst[39m alert [33m=[39m [36mawait[39m screen[33m.[39mfindByRole([32m"alert"[39m)[33m;[39m
+     [90m 153 |[39m     expect(alert)[33m.[39mtoBeInTheDocument()[33m;[39m[0m
+
+      at emit (node_modules/nwsapi/src/nwsapi.js:557:17)
+      at Object._matches [as match] (node_modules/nwsapi/src/nwsapi.js:1397:9)
+      at SVGSVGElementImpl.ElementImpl.matches (node_modules/jsdom/lib/jsdom/living/nodes/Element-impl.js:571:18)
+      at SVGSVGElement.matches (node_modules/jsdom/lib/jsdom/living/generated/Element.js:630:34)
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/role-helpers.js:156:19
+      at getImplicitAriaRoles (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/role-helpers.js:95:9)
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/queries/role.js:115:65
+          at Array.filter (<anonymous>)
+      at queryAllByRole (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/queries/role.js:95:54)
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:87:17
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:62:17
+      at getByRole (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:111:19)
+      at Object.<anonymous> (src/__tests__/Register.test.js:150:28)
+
+  ● Register Page › should send a POST request with axios
+
+    SyntaxError: 'h1' is not a valid selector
+
+    [0m [90m 180 |[39m
+     [90m 181 |[39m     [36mawait[39m act([36masync[39m () [33m=>[39m {
+    [31m[1m>[22m[39m[90m 182 |[39m       userEvent[33m.[39mclick(screen[33m.[39mgetByRole([32m"button"[39m[33m,[39m { name[33m:[39m [35m/register/i[39m }))[33m;[39m
+     [90m     |[39m                              [31m[1m^[22m[39m
+     [90m 183 |[39m     })[33m;[39m
+     [90m 184 |[39m
+     [90m 185 |[39m     [36mconst[39m registerCall [33m=[39m mock[33m.[39mhistory[33m.[39mpost[33m.[39mfind([0m
+
+      at emit (node_modules/nwsapi/src/nwsapi.js:557:17)
+      at Object._matches [as match] (node_modules/nwsapi/src/nwsapi.js:1397:9)
+      at SVGSVGElementImpl.ElementImpl.matches (node_modules/jsdom/lib/jsdom/living/nodes/Element-impl.js:571:18)
+      at SVGSVGElement.matches (node_modules/jsdom/lib/jsdom/living/generated/Element.js:630:34)
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/role-helpers.js:156:19
+      at getImplicitAriaRoles (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/role-helpers.js:95:9)
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/queries/role.js:115:65
+          at Array.filter (<anonymous>)
+      at queryAllByRole (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/queries/role.js:95:54)
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:87:17
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:62:17
+      at getByRole (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:111:19)
+      at src/__tests__/Register.test.js:182:30
+      at batchedUpdates$1 (node_modules/react-dom/cjs/react-dom.development.js:22380:12)
+      at act (node_modules/react-dom/cjs/react-dom-test-utils.development.js:1042:14)
+      at Object.<anonymous> (src/__tests__/Register.test.js:181:14)
+
+  ● Register Page › should send a POST request to server with correct arguments
+
+    SyntaxError: 'h1' is not a valid selector
+
+    [0m [90m 202 |[39m
+     [90m 203 |[39m     [36mawait[39m act([36masync[39m () [33m=>[39m {
+    [31m[1m>[22m[39m[90m 204 |[39m       userEvent[33m.[39mclick(screen[33m.[39mgetByRole([32m"button"[39m[33m,[39m { name[33m:[39m [35m/register/i[39m }))[33m;[39m
+     [90m     |[39m                              [31m[1m^[22m[39m
+     [90m 205 |[39m     })[33m;[39m
+     [90m 206 |[39m
+     [90m 207 |[39m     [36mconst[39m registerCall [33m=[39m mock[33m.[39mhistory[33m.[39mpost[33m.[39mfind([0m
+
+      at emit (node_modules/nwsapi/src/nwsapi.js:557:17)
+      at Object._matches [as match] (node_modules/nwsapi/src/nwsapi.js:1397:9)
+      at SVGSVGElementImpl.ElementImpl.matches (node_modules/jsdom/lib/jsdom/living/nodes/Element-impl.js:571:18)
+      at SVGSVGElement.matches (node_modules/jsdom/lib/jsdom/living/generated/Element.js:630:34)
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/role-helpers.js:156:19
+      at getImplicitAriaRoles (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/role-helpers.js:95:9)
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/queries/role.js:115:65
+          at Array.filter (<anonymous>)
+      at queryAllByRole (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/queries/role.js:95:54)
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:87:17
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:62:17
+      at getByRole (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:111:19)
+      at src/__tests__/Register.test.js:204:30
+      at batchedUpdates$1 (node_modules/react-dom/cjs/react-dom.development.js:22380:12)
+      at act (node_modules/react-dom/cjs/react-dom-test-utils.development.js:1042:14)
+      at Object.<anonymous> (src/__tests__/Register.test.js:203:14)
+
+  ● Register Page › should show success alert if request succeeds
+
+    SyntaxError: 'h1' is not a valid selector
+
+    [0m [90m 246 |[39m
+     [90m 247 |[39m     [36mawait[39m act([36masync[39m () [33m=>[39m {
+    [31m[1m>[22m[39m[90m 248 |[39m       userEvent[33m.[39mclick(screen[33m.[39mgetByRole([32m"button"[39m[33m,[39m { name[33m:[39m [35m/register/i[39m }))[33m;[39m
+     [90m     |[39m                              [31m[1m^[22m[39m
+     [90m 249 |[39m     })[33m;[39m
+     [90m 250 |[39m
+     [90m 251 |[39m     [36mconst[39m alert [33m=[39m [36mawait[39m screen[33m.[39mfindByRole([32m"alert"[39m)[33m;[39m[0m
+
+      at emit (node_modules/nwsapi/src/nwsapi.js:557:17)
+      at Object._matches [as match] (node_modules/nwsapi/src/nwsapi.js:1397:9)
+      at SVGSVGElementImpl.ElementImpl.matches (node_modules/jsdom/lib/jsdom/living/nodes/Element-impl.js:571:18)
+      at SVGSVGElement.matches (node_modules/jsdom/lib/jsdom/living/generated/Element.js:630:34)
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/role-helpers.js:156:19
+      at getImplicitAriaRoles (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/role-helpers.js:95:9)
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/queries/role.js:115:65
+          at Array.filter (<anonymous>)
+      at queryAllByRole (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/queries/role.js:95:54)
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:87:17
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:62:17
+      at getByRole (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:111:19)
+      at src/__tests__/Register.test.js:248:30
+      at batchedUpdates$1 (node_modules/react-dom/cjs/react-dom.development.js:22380:12)
+      at act (node_modules/react-dom/cjs/react-dom-test-utils.development.js:1042:14)
+      at Object.<anonymous> (src/__tests__/Register.test.js:247:14)
+
+  ● Register Page › should show error alert with message sent from backend if request fails
+
+    SyntaxError: 'h1' is not a valid selector
+
+    [0m [90m 262 |[39m
+     [90m 263 |[39m     [36mawait[39m act([36masync[39m () [33m=>[39m {
+    [31m[1m>[22m[39m[90m 264 |[39m       userEvent[33m.[39mclick(screen[33m.[39mgetByRole([32m"button"[39m[33m,[39m { name[33m:[39m [35m/register/i[39m }))[33m;[39m
+     [90m     |[39m                              [31m[1m^[22m[39m
+     [90m 265 |[39m     })[33m;[39m
+     [90m 266 |[39m
+     [90m 267 |[39m     [36mconst[39m alert [33m=[39m [36mawait[39m screen[33m.[39mfindByRole([32m"alert"[39m)[33m;[39m[0m
+
+      at emit (node_modules/nwsapi/src/nwsapi.js:557:17)
+      at Object._matches [as match] (node_modules/nwsapi/src/nwsapi.js:1397:9)
+      at SVGSVGElementImpl.ElementImpl.matches (node_modules/jsdom/lib/jsdom/living/nodes/Element-impl.js:571:18)
+      at SVGSVGElement.matches (node_modules/jsdom/lib/jsdom/living/generated/Element.js:630:34)
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/role-helpers.js:156:19
+      at getImplicitAriaRoles (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/role-helpers.js:95:9)
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/queries/role.js:115:65
+          at Array.filter (<anonymous>)
+      at queryAllByRole (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/queries/role.js:95:54)
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:87:17
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:62:17
+      at getByRole (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:111:19)
+      at src/__tests__/Register.test.js:264:30
+      at batchedUpdates$1 (node_modules/react-dom/cjs/react-dom.development.js:22380:12)
+      at act (node_modules/react-dom/cjs/react-dom-test-utils.development.js:1042:14)
+      at Object.<anonymous> (src/__tests__/Register.test.js:263:14)
+
+  ● Register Page › should redirect to login after success
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: "/login"
+    Received: "/"
+
+    [0m [90m 277 |[39m     performFormInput(request)[33m;[39m
+     [90m 278 |[39m
+    [31m[1m>[22m[39m[90m 279 |[39m     expect(history[33m.[39mlocation[33m.[39mpathname)[33m.[39mtoBe([32m"/login"[39m)[33m;[39m
+     [90m     |[39m                                       [31m[1m^[22m[39m
+     [90m 280 |[39m   })[33m;[39m
+     [90m 281 |[39m
+     [90m 282 |[39m   it([32m"'back to explore' button on Header should route to products"[39m[33m,[39m [36masync[39m () [33m=>[39m {[0m
+
+      at Object.<anonymous> (src/__tests__/Register.test.js:279:39)
+
+  ● Register Page › 'back to explore' button on Header should route to products
+
+    SyntaxError: 'h1' is not a valid selector
+
+    [0m [90m 281 |[39m
+     [90m 282 |[39m   it([32m"'back to explore' button on Header should route to products"[39m[33m,[39m [36masync[39m () [33m=>[39m {
+    [31m[1m>[22m[39m[90m 283 |[39m     [36mconst[39m exploreButton [33m=[39m screen[33m.[39mgetByRole([32m"button"[39m[33m,[39m {
+     [90m     |[39m                                  [31m[1m^[22m[39m
+     [90m 284 |[39m       name[33m:[39m [35m/back to explore/i[39m[33m,[39m
+     [90m 285 |[39m     })[33m;[39m
+     [90m 286 |[39m     userEvent[33m.[39mclick(exploreButton)[33m;[39m[0m
+
+      at emit (node_modules/nwsapi/src/nwsapi.js:557:17)
+      at Object._matches [as match] (node_modules/nwsapi/src/nwsapi.js:1397:9)
+      at SVGSVGElementImpl.ElementImpl.matches (node_modules/jsdom/lib/jsdom/living/nodes/Element-impl.js:571:18)
+      at SVGSVGElement.matches (node_modules/jsdom/lib/jsdom/living/generated/Element.js:630:34)
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/role-helpers.js:156:19
+      at getImplicitAriaRoles (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/role-helpers.js:95:9)
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/queries/role.js:115:65
+          at Array.filter (<anonymous>)
+      at queryAllByRole (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/queries/role.js:95:54)
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:87:17
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:62:17
+      at getByRole (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:111:19)
+      at Object.<anonymous> (src/__tests__/Register.test.js:283:34)
+
+[0;33mOne of your dependencies, babel-preset-react-app, is importing the
+"@babel/plugin-proposal-private-property-in-object" package without
+declaring it in its dependencies. This is currently working because
+"@babel/plugin-proposal-private-property-in-object" is already in your
+node_modules folder for unrelated reasons, but it [1mmay break at any time[0;33m.
+
+babel-preset-react-app is part of the create-react-app project, [1mwhich
+is not maintianed anymore[0;33m. It is thus unlikely that this bug will
+ever be fixed. Add "@babel/plugin-proposal-private-property-in-object" to
+your devDependencies to work around this error. This will make this message
+go away.[0m
+  
+FAIL src/__tests__/Products.test.js (33.34 s)
+  Products Page - Header
+    ✕ should have a header with logo (963 ms)
+    ✕ should have login button on Header route to login page when logged out (233 ms)
+    ✕ should have register button on Header route to register page when logged out (238 ms)
+    ✓ should have a search bar (236 ms)
+  Products Page - Header: Logged in
+    ✓ should have username & avatar in header if logged in (598 ms)
+    ✕ should have logout button in header when logged in (416 ms)
+    ✕ logout button should clear localstorage items (391 ms)
+  Products Page
+    ✓ should make a GET request to load products (453 ms)
+    ✕ shows items on the products page load (498 ms)
+    ✓ should make a GET request to search (795 ms)
+    ✕ should show all products if search empty (438 ms)
+    ✕ should show matching products if found (667 ms)
+    ✕ should 'No Products Found' if search string does get any items (630 ms)
+    ✕ updates search items as search string updates (639 ms)
+    ✓ debounces the searching API calls (758 ms)
+
+  ● Products Page - Header › should have a header with logo
+
+    SyntaxError: 'h1' is not a valid selector
+
+    [0m [90m 90 |[39m
+     [90m 91 |[39m   it([32m"should have a header with logo"[39m[33m,[39m [36masync[39m () [33m=>[39m {
+    [31m[1m>[22m[39m[90m 92 |[39m     [36mconst[39m images [33m=[39m screen[33m.[39mgetAllByRole([32m"img"[39m)[33m;[39m
+     [90m    |[39m                           [31m[1m^[22m[39m
+     [90m 93 |[39m     [90m// CRIO_SOLUTION_START_MODULE_PRODUCTS[39m
+     [90m 94 |[39m     [90m// FIXME - Test passes even if logo_light is used[39m
+     [90m 95 |[39m     [90m// CRIO_SOLUTION_END_MODULE_PRODUCTS[39m[0m
+
+      at emit (node_modules/nwsapi/src/nwsapi.js:557:17)
+      at Object._matches [as match] (node_modules/nwsapi/src/nwsapi.js:1397:9)
+      at SVGSVGElementImpl.ElementImpl.matches (node_modules/jsdom/lib/jsdom/living/nodes/Element-impl.js:571:18)
+      at SVGSVGElement.matches (node_modules/jsdom/lib/jsdom/living/generated/Element.js:630:34)
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/role-helpers.js:156:19
+      at getImplicitAriaRoles (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/role-helpers.js:95:9)
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/queries/role.js:115:65
+          at Array.filter (<anonymous>)
+      at queryAllByRole (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/queries/role.js:95:54)
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:87:17
+      at getAllByRole (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:130:15)
+      at Object.<anonymous> (src/__tests__/Products.test.js:92:27)
+
+  ● Products Page - Header › should have login button on Header route to login page when logged out
+
+    SyntaxError: 'h1' is not a valid selector
+
+    [0m [90m 101 |[39m
+     [90m 102 |[39m   it([32m"should have login button on Header route to login page when logged out"[39m[33m,[39m [36masync[39m () [33m=>[39m {
+    [31m[1m>[22m[39m[90m 103 |[39m     [36mconst[39m loginBtn [33m=[39m screen[33m.[39mgetByRole([32m"button"[39m[33m,[39m { name[33m:[39m [35m/login/i[39m })[33m;[39m
+     [90m     |[39m                             [31m[1m^[22m[39m
+     [90m 104 |[39m     userEvent[33m.[39mclick(loginBtn)[33m;[39m
+     [90m 105 |[39m
+     [90m 106 |[39m     expect(history[33m.[39mlocation[33m.[39mpathname)[33m.[39mtoBe([32m"/login"[39m)[33m;[39m[0m
+
+      at emit (node_modules/nwsapi/src/nwsapi.js:557:17)
+      at Object._matches [as match] (node_modules/nwsapi/src/nwsapi.js:1397:9)
+      at SVGSVGElementImpl.ElementImpl.matches (node_modules/jsdom/lib/jsdom/living/nodes/Element-impl.js:571:18)
+      at SVGSVGElement.matches (node_modules/jsdom/lib/jsdom/living/generated/Element.js:630:34)
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/role-helpers.js:156:19
+      at getImplicitAriaRoles (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/role-helpers.js:95:9)
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/queries/role.js:115:65
+          at Array.filter (<anonymous>)
+      at queryAllByRole (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/queries/role.js:95:54)
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:87:17
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:62:17
+      at getByRole (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:111:19)
+      at Object.<anonymous> (src/__tests__/Products.test.js:103:29)
+
+  ● Products Page - Header › should have register button on Header route to register page when logged out
+
+    SyntaxError: 'h1' is not a valid selector
+
+    [0m [90m 108 |[39m
+     [90m 109 |[39m   it([32m"should have register button on Header route to register page when logged out"[39m[33m,[39m [36masync[39m () [33m=>[39m {
+    [31m[1m>[22m[39m[90m 110 |[39m     [36mconst[39m registerBtn [33m=[39m screen[33m.[39mgetByRole([32m"button"[39m[33m,[39m { name[33m:[39m [35m/register/i[39m })[33m;[39m
+     [90m     |[39m                                [31m[1m^[22m[39m
+     [90m 111 |[39m     userEvent[33m.[39mclick(registerBtn)[33m;[39m
+     [90m 112 |[39m
+     [90m 113 |[39m     expect(history[33m.[39mlocation[33m.[39mpathname)[33m.[39mtoBe([32m"/register"[39m)[33m;[39m[0m
+
+      at emit (node_modules/nwsapi/src/nwsapi.js:557:17)
+      at Object._matches [as match] (node_modules/nwsapi/src/nwsapi.js:1397:9)
+      at SVGSVGElementImpl.ElementImpl.matches (node_modules/jsdom/lib/jsdom/living/nodes/Element-impl.js:571:18)
+      at SVGSVGElement.matches (node_modules/jsdom/lib/jsdom/living/generated/Element.js:630:34)
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/role-helpers.js:156:19
+      at getImplicitAriaRoles (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/role-helpers.js:95:9)
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/queries/role.js:115:65
+          at Array.filter (<anonymous>)
+      at queryAllByRole (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/queries/role.js:95:54)
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:87:17
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:62:17
+      at getByRole (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:111:19)
+      at Object.<anonymous> (src/__tests__/Products.test.js:110:32)
+
+  ● Products Page - Header: Logged in › should have logout button in header when logged in
+
+    SyntaxError: 'h1' is not a valid selector
+
+    [0m [90m 157 |[39m
+     [90m 158 |[39m   it([32m"should have logout button in header when logged in"[39m[33m,[39m () [33m=>[39m {
+    [31m[1m>[22m[39m[90m 159 |[39m     [36mconst[39m logoutButton [33m=[39m screen[33m.[39mgetByRole([32m"button"[39m[33m,[39m { name[33m:[39m [35m/logout/i[39m })[33m;[39m
+     [90m     |[39m                                 [31m[1m^[22m[39m
+     [90m 160 |[39m     expect(logoutButton)[33m.[39mtoBeInTheDocument()[33m;[39m
+     [90m 161 |[39m   })[33m;[39m
+     [90m 162 |[39m[0m
+
+      at emit (node_modules/nwsapi/src/nwsapi.js:557:17)
+      at Object._matches [as match] (node_modules/nwsapi/src/nwsapi.js:1397:9)
+      at SVGSVGElementImpl.ElementImpl.matches (node_modules/jsdom/lib/jsdom/living/nodes/Element-impl.js:571:18)
+      at SVGSVGElement.matches (node_modules/jsdom/lib/jsdom/living/generated/Element.js:630:34)
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/role-helpers.js:156:19
+      at getImplicitAriaRoles (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/role-helpers.js:95:9)
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/queries/role.js:115:65
+          at Array.filter (<anonymous>)
+      at queryAllByRole (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/queries/role.js:95:54)
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:87:17
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:62:17
+      at getByRole (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:111:19)
+      at Object.<anonymous> (src/__tests__/Products.test.js:159:33)
+
+  ● Products Page - Header: Logged in › logout button should clear localstorage items
+
+    SyntaxError: 'h1' is not a valid selector
+
+    [0m [90m 162 |[39m
+     [90m 163 |[39m   it([32m"logout button should clear localstorage items"[39m[33m,[39m [36masync[39m () [33m=>[39m {
+    [31m[1m>[22m[39m[90m 164 |[39m     [36mconst[39m logoutButton [33m=[39m screen[33m.[39mgetByRole([32m"button"[39m[33m,[39m { name[33m:[39m [35m/logout/i[39m })[33m;[39m
+     [90m     |[39m                                 [31m[1m^[22m[39m
+     [90m 165 |[39m     userEvent[33m.[39mclick(logoutButton)[33m;[39m
+     [90m 166 |[39m
+     [90m 167 |[39m     expect(localStorage[33m.[39mgetItem([32m"username"[39m))[33m.[39mtoBeNull()[33m;[39m[0m
+
+      at emit (node_modules/nwsapi/src/nwsapi.js:557:17)
+      at Object._matches [as match] (node_modules/nwsapi/src/nwsapi.js:1397:9)
+      at SVGSVGElementImpl.ElementImpl.matches (node_modules/jsdom/lib/jsdom/living/nodes/Element-impl.js:571:18)
+      at SVGSVGElement.matches (node_modules/jsdom/lib/jsdom/living/generated/Element.js:630:34)
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/role-helpers.js:156:19
+      at getImplicitAriaRoles (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/role-helpers.js:95:9)
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/queries/role.js:115:65
+          at Array.filter (<anonymous>)
+      at queryAllByRole (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/queries/role.js:95:54)
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:87:17
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:62:17
+      at getByRole (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:111:19)
+      at Object.<anonymous> (src/__tests__/Products.test.js:164:33)
+
+  ● Products Page › shows items on the products page load
+
+    SyntaxError: 'h1' is not a valid selector
+
+    [0m [90m 206 |[39m
+     [90m 207 |[39m   it([32m"shows items on the products page load"[39m[33m,[39m [36masync[39m () [33m=>[39m {
+    [31m[1m>[22m[39m[90m 208 |[39m     [36mconst[39m addToCartBtn [33m=[39m screen[33m.[39mqueryAllByRole([32m"button"[39m[33m,[39m {
+     [90m     |[39m                                 [31m[1m^[22m[39m
+     [90m 209 |[39m       name[33m:[39m [35m/add to cart/i[39m[33m,[39m
+     [90m 210 |[39m     })[33m;[39m
+     [90m 211 |[39m[0m
+
+      at emit (node_modules/nwsapi/src/nwsapi.js:557:17)
+      at Object._matches [as match] (node_modules/nwsapi/src/nwsapi.js:1397:9)
+      at SVGSVGElementImpl.ElementImpl.matches (node_modules/jsdom/lib/jsdom/living/nodes/Element-impl.js:571:18)
+      at SVGSVGElement.matches (node_modules/jsdom/lib/jsdom/living/generated/Element.js:630:34)
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/role-helpers.js:156:19
+      at getImplicitAriaRoles (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/role-helpers.js:95:9)
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/queries/role.js:115:65
+          at Array.filter (<anonymous>)
+      at queryAllByRole (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/queries/role.js:95:54)
+      at queryAllByRole (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:130:15)
+      at Object.<anonymous> (src/__tests__/Products.test.js:208:33)
+
+  ● Products Page › should show all products if search empty
+
+    SyntaxError: 'h1' is not a valid selector
+
+    [0m [90m 272 |[39m     })[33m;[39m
+     [90m 273 |[39m
+    [31m[1m>[22m[39m[90m 274 |[39m     [36mconst[39m addToCartBtn [33m=[39m screen[33m.[39mqueryAllByRole([32m"button"[39m[33m,[39m {
+     [90m     |[39m                                 [31m[1m^[22m[39m
+     [90m 275 |[39m       name[33m:[39m [35m/add to cart/i[39m[33m,[39m
+     [90m 276 |[39m     })[33m;[39m
+     [90m 277 |[39m     expect(addToCartBtn[33m.[39mlength)[33m.[39mtoEqual([35m2[39m)[33m;[39m[0m
+
+      at emit (node_modules/nwsapi/src/nwsapi.js:557:17)
+      at Object._matches [as match] (node_modules/nwsapi/src/nwsapi.js:1397:9)
+      at SVGSVGElementImpl.ElementImpl.matches (node_modules/jsdom/lib/jsdom/living/nodes/Element-impl.js:571:18)
+      at SVGSVGElement.matches (node_modules/jsdom/lib/jsdom/living/generated/Element.js:630:34)
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/role-helpers.js:156:19
+      at getImplicitAriaRoles (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/role-helpers.js:95:9)
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/queries/role.js:115:65
+          at Array.filter (<anonymous>)
+      at queryAllByRole (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/queries/role.js:95:54)
+      at queryAllByRole (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:130:15)
+      at Object.<anonymous> (src/__tests__/Products.test.js:274:33)
+
+  ● Products Page › should show matching products if found
+
+    SyntaxError: 'h1' is not a valid selector
+
+    [0m [90m 304 |[39m
+     [90m 305 |[39m     [36mconst[39m text [33m=[39m screen[33m.[39mgetByText([35m/YONEX Smash Badminton Racquet/[39m)[33m;[39m
+    [31m[1m>[22m[39m[90m 306 |[39m     [36mconst[39m addToCartBtn [33m=[39m screen[33m.[39mqueryAllByRole([32m"button"[39m[33m,[39m {
+     [90m     |[39m                                 [31m[1m^[22m[39m
+     [90m 307 |[39m       name[33m:[39m [35m/add to cart/i[39m[33m,[39m
+     [90m 308 |[39m     })[33m;[39m
+     [90m 309 |[39m[0m
+
+      at emit (node_modules/nwsapi/src/nwsapi.js:557:17)
+      at Object._matches [as match] (node_modules/nwsapi/src/nwsapi.js:1397:9)
+      at SVGSVGElementImpl.ElementImpl.matches (node_modules/jsdom/lib/jsdom/living/nodes/Element-impl.js:571:18)
+      at SVGSVGElement.matches (node_modules/jsdom/lib/jsdom/living/generated/Element.js:630:34)
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/role-helpers.js:156:19
+      at getImplicitAriaRoles (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/role-helpers.js:95:9)
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/queries/role.js:115:65
+          at Array.filter (<anonymous>)
+      at queryAllByRole (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/queries/role.js:95:54)
+      at queryAllByRole (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:130:15)
+      at Object.<anonymous> (src/__tests__/Products.test.js:306:33)
+
+  ● Products Page › should 'No Products Found' if search string does get any items
+
+    SyntaxError: 'h1' is not a valid selector
+
+    [0m [90m 330 |[39m     )[33m;[39m
+     [90m 331 |[39m     [36mconst[39m text [33m=[39m [36mawait[39m screen[33m.[39mfindByText([35m/No products found/i[39m)[33m;[39m
+    [31m[1m>[22m[39m[90m 332 |[39m     [36mconst[39m addToCartBtn [33m=[39m screen[33m.[39mqueryAllByRole([32m"button"[39m[33m,[39m {
+     [90m     |[39m                                 [31m[1m^[22m[39m
+     [90m 333 |[39m       name[33m:[39m [35m/add to cart/i[39m[33m,[39m
+     [90m 334 |[39m     })[33m;[39m
+     [90m 335 |[39m[0m
+
+      at emit (node_modules/nwsapi/src/nwsapi.js:557:17)
+      at Object._matches [as match] (node_modules/nwsapi/src/nwsapi.js:1397:9)
+      at SVGSVGElementImpl.ElementImpl.matches (node_modules/jsdom/lib/jsdom/living/nodes/Element-impl.js:571:18)
+      at SVGSVGElement.matches (node_modules/jsdom/lib/jsdom/living/generated/Element.js:630:34)
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/role-helpers.js:156:19
+      at getImplicitAriaRoles (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/role-helpers.js:95:9)
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/queries/role.js:115:65
+          at Array.filter (<anonymous>)
+      at queryAllByRole (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/queries/role.js:95:54)
+      at queryAllByRole (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:130:15)
+      at Object.<anonymous> (src/__tests__/Products.test.js:332:33)
+
+  ● Products Page › updates search items as search string updates
+
+    SyntaxError: 'h1' is not a valid selector
+
+    [0m [90m 389 |[39m
+     [90m 390 |[39m     expect(
+    [31m[1m>[22m[39m[90m 391 |[39m       screen[33m.[39mgetAllByRole([32m"button"[39m[33m,[39m {
+     [90m     |[39m              [31m[1m^[22m[39m
+     [90m 392 |[39m         name[33m:[39m [35m/add to cart/i[39m[33m,[39m
+     [90m 393 |[39m       })[33m.[39mlength
+     [90m 394 |[39m     )[33m.[39mtoEqual([35m2[39m)[33m;[39m[0m
+
+      at emit (node_modules/nwsapi/src/nwsapi.js:557:17)
+      at Object._matches [as match] (node_modules/nwsapi/src/nwsapi.js:1397:9)
+      at SVGSVGElementImpl.ElementImpl.matches (node_modules/jsdom/lib/jsdom/living/nodes/Element-impl.js:571:18)
+      at SVGSVGElement.matches (node_modules/jsdom/lib/jsdom/living/generated/Element.js:630:34)
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/role-helpers.js:156:19
+      at getImplicitAriaRoles (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/role-helpers.js:95:9)
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/queries/role.js:115:65
+          at Array.filter (<anonymous>)
+      at queryAllByRole (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/queries/role.js:95:54)
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:87:17
+      at getAllByRole (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:130:15)
+      at Object.<anonymous> (src/__tests__/Products.test.js:391:14)
+
+  console.error
+    Error: Uncaught [TypeError: Cannot set property message of  which has only a getter]
+        at reportException (/nikitarodge1-ME_QKART_FRONTEND_V2-b23b8513-5e5c-4574-b571-77acc93fe3e1/nikitarodge1-ME_QKART_FRONTEND_V2/node_modules/jsdom/lib/jsdom/living/helpers/runtime-script-errors.js:66:24)
+        at Timeout.task [as _onTimeout] (/nikitarodge1-ME_QKART_FRONTEND_V2-b23b8513-5e5c-4574-b571-77acc93fe3e1/nikitarodge1-ME_QKART_FRONTEND_V2/node_modules/jsdom/lib/jsdom/browser/Window.js:521:9)
+        at listOnTimeout (internal/timers.js:557:17)
+        at processTimers (internal/timers.js:500:7) TypeError: Cannot set property message of  which has only a getter
+        at onTimeout (/nikitarodge1-ME_QKART_FRONTEND_V2-b23b8513-5e5c-4574-b571-77acc93fe3e1/nikitarodge1-ME_QKART_FRONTEND_V2/node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/wait-for.js:26:19)
+        at handleTimeout (/nikitarodge1-ME_QKART_FRONTEND_V2-b23b8513-5e5c-4574-b571-77acc93fe3e1/nikitarodge1-ME_QKART_FRONTEND_V2/node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/wait-for.js:165:14)
+        at Timeout.task [as _onTimeout] (/nikitarodge1-ME_QKART_FRONTEND_V2-b23b8513-5e5c-4574-b571-77acc93fe3e1/nikitarodge1-ME_QKART_FRONTEND_V2/node_modules/jsdom/lib/jsdom/browser/Window.js:516:19)
+        at listOnTimeout (internal/timers.js:557:17)
+        at processTimers (internal/timers.js:500:7)
+
+      at console.error (node_modules/@testing-library/react/dist/act-compat.js:55:34)
+      at VirtualConsole.<anonymous> (node_modules/jsdom/lib/jsdom/virtual-console.js:29:45)
+      at reportException (node_modules/jsdom/lib/jsdom/living/helpers/runtime-script-errors.js:70:28)
+      at Timeout.task [as _onTimeout] (node_modules/jsdom/lib/jsdom/browser/Window.js:521:9)
+
+  console.error
+    Error: Uncaught [TypeError: Cannot set property message of  which has only a getter]
+        at reportException (/nikitarodge1-ME_QKART_FRONTEND_V2-b23b8513-5e5c-4574-b571-77acc93fe3e1/nikitarodge1-ME_QKART_FRONTEND_V2/node_modules/jsdom/lib/jsdom/living/helpers/runtime-script-errors.js:66:24)
+        at Timeout.task [as _onTimeout] (/nikitarodge1-ME_QKART_FRONTEND_V2-b23b8513-5e5c-4574-b571-77acc93fe3e1/nikitarodge1-ME_QKART_FRONTEND_V2/node_modules/jsdom/lib/jsdom/browser/Window.js:521:9)
+        at listOnTimeout (internal/timers.js:557:17)
+        at processTimers (internal/timers.js:500:7) TypeError: Cannot set property message of  which has only a getter
+        at onTimeout (/nikitarodge1-ME_QKART_FRONTEND_V2-b23b8513-5e5c-4574-b571-77acc93fe3e1/nikitarodge1-ME_QKART_FRONTEND_V2/node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/wait-for.js:26:19)
+        at handleTimeout (/nikitarodge1-ME_QKART_FRONTEND_V2-b23b8513-5e5c-4574-b571-77acc93fe3e1/nikitarodge1-ME_QKART_FRONTEND_V2/node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/wait-for.js:165:14)
+        at Timeout.task [as _onTimeout] (/nikitarodge1-ME_QKART_FRONTEND_V2-b23b8513-5e5c-4574-b571-77acc93fe3e1/nikitarodge1-ME_QKART_FRONTEND_V2/node_modules/jsdom/lib/jsdom/browser/Window.js:516:19)
+        at listOnTimeout (internal/timers.js:557:17)
+        at processTimers (internal/timers.js:500:7)
+
+      at console.error (node_modules/@testing-library/react/dist/act-compat.js:55:34)
+      at console.error (node_modules/@testing-library/react/dist/act-compat.js:55:34)
+      at VirtualConsole.<anonymous> (node_modules/jsdom/lib/jsdom/virtual-console.js:29:45)
+      at reportException (node_modules/jsdom/lib/jsdom/living/helpers/runtime-script-errors.js:70:28)
+      at Timeout.task [as _onTimeout] (node_modules/jsdom/lib/jsdom/browser/Window.js:521:9)
+
+  console.error
+    Error: Uncaught [TypeError: Cannot set property message of  which has only a getter]
+        at reportException (/nikitarodge1-ME_QKART_FRONTEND_V2-b23b8513-5e5c-4574-b571-77acc93fe3e1/nikitarodge1-ME_QKART_FRONTEND_V2/node_modules/jsdom/lib/jsdom/living/helpers/runtime-script-errors.js:66:24)
+        at Timeout.task [as _onTimeout] (/nikitarodge1-ME_QKART_FRONTEND_V2-b23b8513-5e5c-4574-b571-77acc93fe3e1/nikitarodge1-ME_QKART_FRONTEND_V2/node_modules/jsdom/lib/jsdom/browser/Window.js:521:9)
+        at listOnTimeout (internal/timers.js:557:17)
+        at processTimers (internal/timers.js:500:7) TypeError: Cannot set property message of  which has only a getter
+        at onTimeout (/nikitarodge1-ME_QKART_FRONTEND_V2-b23b8513-5e5c-4574-b571-77acc93fe3e1/nikitarodge1-ME_QKART_FRONTEND_V2/node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/wait-for.js:26:19)
+        at handleTimeout (/nikitarodge1-ME_QKART_FRONTEND_V2-b23b8513-5e5c-4574-b571-77acc93fe3e1/nikitarodge1-ME_QKART_FRONTEND_V2/node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/wait-for.js:165:14)
+        at Timeout.task [as _onTimeout] (/nikitarodge1-ME_QKART_FRONTEND_V2-b23b8513-5e5c-4574-b571-77acc93fe3e1/nikitarodge1-ME_QKART_FRONTEND_V2/node_modules/jsdom/lib/jsdom/browser/Window.js:516:19)
+        at listOnTimeout (internal/timers.js:557:17)
+        at processTimers (internal/timers.js:500:7)
+
+      at console.error (node_modules/@testing-library/react/dist/act-compat.js:55:34)
+      at console.error (node_modules/@testing-library/react/dist/act-compat.js:55:34)
+      at console.error (node_modules/@testing-library/react/dist/act-compat.js:55:34)
+      at VirtualConsole.<anonymous> (node_modules/jsdom/lib/jsdom/virtual-console.js:29:45)
+      at reportException (node_modules/jsdom/lib/jsdom/living/helpers/runtime-script-errors.js:70:28)
+      at Timeout.task [as _onTimeout] (node_modules/jsdom/lib/jsdom/browser/Window.js:521:9)
+
+  console.log
+    {
+      status: 400,
+      data: { success: false, message: 'Password is incorrect' },
+      headers: undefined,
+      config: {
+        transitional: {
+          silentJSONParsing: true,
+          forcedJSONParsing: true,
+          clarifyTimeoutError: false
+        },
+        transformRequest: [ [Function: transformRequest] ],
+        transformResponse: [ [Function: transformResponse] ],
+        timeout: 0,
+        xsrfCookieName: 'XSRF-TOKEN',
+        xsrfHeaderName: 'X-XSRF-TOKEN',
+        maxContentLength: -1,
+        maxBodyLength: -1,
+        validateStatus: [Function: validateStatus],
+        headers: {
+          Accept: 'application/json, text/plain, */*',
+          'Content-Type': 'application/json'
+        },
+        method: 'post',
+        url: 'http://65.0.179.23:8082/api/v1/auth/login',
+        data: '{"username":"crio.do","password":"wrongpassword"}'
+      },
+      request: { responseURL: 'http://65.0.179.23:8082/api/v1/auth/login' }
+    }
+
+      at src/components/Login.js:59:19
+
+  console.error
+    Error: Uncaught [TypeError: Cannot set property message of  which has only a getter]
+        at reportException (/nikitarodge1-ME_QKART_FRONTEND_V2-b23b8513-5e5c-4574-b571-77acc93fe3e1/nikitarodge1-ME_QKART_FRONTEND_V2/node_modules/jsdom/lib/jsdom/living/helpers/runtime-script-errors.js:66:24)
+        at Timeout.task [as _onTimeout] (/nikitarodge1-ME_QKART_FRONTEND_V2-b23b8513-5e5c-4574-b571-77acc93fe3e1/nikitarodge1-ME_QKART_FRONTEND_V2/node_modules/jsdom/lib/jsdom/browser/Window.js:521:9)
+        at listOnTimeout (internal/timers.js:557:17)
+        at processTimers (internal/timers.js:500:7) TypeError: Cannot set property message of  which has only a getter
+        at onTimeout (/nikitarodge1-ME_QKART_FRONTEND_V2-b23b8513-5e5c-4574-b571-77acc93fe3e1/nikitarodge1-ME_QKART_FRONTEND_V2/node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/wait-for.js:26:19)
+        at handleTimeout (/nikitarodge1-ME_QKART_FRONTEND_V2-b23b8513-5e5c-4574-b571-77acc93fe3e1/nikitarodge1-ME_QKART_FRONTEND_V2/node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/wait-for.js:165:14)
+        at Timeout.task [as _onTimeout] (/nikitarodge1-ME_QKART_FRONTEND_V2-b23b8513-5e5c-4574-b571-77acc93fe3e1/nikitarodge1-ME_QKART_FRONTEND_V2/node_modules/jsdom/lib/jsdom/browser/Window.js:516:19)
+        at listOnTimeout (internal/timers.js:557:17)
+        at processTimers (internal/timers.js:500:7)
+
+      at console.error (node_modules/@testing-library/react/dist/act-compat.js:55:34)
+      at console.error (node_modules/@testing-library/react/dist/act-compat.js:55:34)
+      at console.error (node_modules/@testing-library/react/dist/act-compat.js:55:34)
+      at console.error (node_modules/@testing-library/react/dist/act-compat.js:55:34)
+      at VirtualConsole.<anonymous> (node_modules/jsdom/lib/jsdom/virtual-console.js:29:45)
+      at reportException (node_modules/jsdom/lib/jsdom/living/helpers/runtime-script-errors.js:70:28)
+      at Timeout.task [as _onTimeout] (node_modules/jsdom/lib/jsdom/browser/Window.js:521:9)
+
+FAIL src/__tests__/Login.test.js (26.504 s)
+  Login Page
+    ✕ should have a Login form title (171 ms)
+    ✕ should have a header with logo (54 ms)
+    ✕ should have header with back to explore button (51 ms)
+    ✕ 'back to explore' button on Header should route to products (52 ms)
+    ✕ should have register now link (63 ms)
+    ✕ should throw error if username field is empty (5052 ms)
+    ✕ should throw error if password field is empty (5050 ms)
+    ✓ should send a POST request with axios (537 ms)
+    ✓ should send a POST request to server with correct arguments (441 ms)
+    ✕ should show success alert if request succeeds (5046 ms)
+    ✕ should show error alert with message sent from backend if request fails (5051 ms)
+    ✓ should store values in local storage if request succeeds (400 ms)
+    ✓ should redirect to products page after success (471 ms)
+
+  ● Login Page › should have a Login form title
+
+    SyntaxError: 'h1' is not a valid selector
+
+    [0m [90m 61 |[39m   it([32m"should have a Login form title"[39m[33m,[39m () [33m=>[39m {
+     [90m 62 |[39m     [90m// Matches by h1-h6 tags[39m
+    [31m[1m>[22m[39m[90m 63 |[39m     [36mconst[39m heading [33m=[39m screen[33m.[39mgetByRole([32m"heading"[39m[33m,[39m { name[33m:[39m [32m"Login"[39m })[33m;[39m
+     [90m    |[39m                            [31m[1m^[22m[39m
+     [90m 64 |[39m     expect(heading)[33m.[39mtoBeInTheDocument()[33m;[39m
+     [90m 65 |[39m   })[33m;[39m
+     [90m 66 |[39m[0m
+
+      at emit (node_modules/nwsapi/src/nwsapi.js:557:17)
+      at Object._matches [as match] (node_modules/nwsapi/src/nwsapi.js:1397:9)
+      at SVGSVGElementImpl.ElementImpl.matches (node_modules/jsdom/lib/jsdom/living/nodes/Element-impl.js:571:18)
+      at SVGSVGElement.matches (node_modules/jsdom/lib/jsdom/living/generated/Element.js:630:34)
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/role-helpers.js:156:19
+      at getImplicitAriaRoles (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/role-helpers.js:95:9)
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/queries/role.js:115:65
+          at Array.filter (<anonymous>)
+      at queryAllByRole (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/queries/role.js:95:54)
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:87:17
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:62:17
+      at getByRole (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:111:19)
+      at Object.<anonymous> (src/__tests__/Login.test.js:63:28)
+
+  ● Login Page › should have a header with logo
+
+    SyntaxError: 'h1' is not a valid selector
+
+    [0m [90m 67 |[39m   it([32m"should have a header with logo"[39m[33m,[39m () [33m=>[39m {
+     [90m 68 |[39m     [90m// Matches by <img> tag role -> img[39m
+    [31m[1m>[22m[39m[90m 69 |[39m     [36mconst[39m images [33m=[39m screen[33m.[39mgetAllByRole([32m"img"[39m)[33m;[39m
+     [90m    |[39m                           [31m[1m^[22m[39m
+     [90m 70 |[39m
+     [90m 71 |[39m     [90m// Find <img> with matching src attribute[39m
+     [90m 72 |[39m     [36mconst[39m logo [33m=[39m images[33m.[39mfind([0m
+
+      at emit (node_modules/nwsapi/src/nwsapi.js:557:17)
+      at Object._matches [as match] (node_modules/nwsapi/src/nwsapi.js:1397:9)
+      at SVGSVGElementImpl.ElementImpl.matches (node_modules/jsdom/lib/jsdom/living/nodes/Element-impl.js:571:18)
+      at SVGSVGElement.matches (node_modules/jsdom/lib/jsdom/living/generated/Element.js:630:34)
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/role-helpers.js:156:19
+      at getImplicitAriaRoles (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/role-helpers.js:95:9)
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/queries/role.js:115:65
+          at Array.filter (<anonymous>)
+      at queryAllByRole (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/queries/role.js:95:54)
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:87:17
+      at getAllByRole (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:130:15)
+      at Object.<anonymous> (src/__tests__/Login.test.js:69:27)
+
+  ● Login Page › should have header with back to explore button
+
+    SyntaxError: 'h1' is not a valid selector
+
+    [0m [90m 79 |[39m   it([32m"should have header with back to explore button"[39m[33m,[39m () [33m=>[39m {
+     [90m 80 |[39m     [90m// Matches by <button> with text "Back To Explore" - case insensitive[39m
+    [31m[1m>[22m[39m[90m 81 |[39m     [36mconst[39m exploreButton [33m=[39m screen[33m.[39mgetByRole([32m"button"[39m[33m,[39m {
+     [90m    |[39m                                  [31m[1m^[22m[39m
+     [90m 82 |[39m       name[33m:[39m [35m/back to explore/i[39m[33m,[39m
+     [90m 83 |[39m     })[33m;[39m
+     [90m 84 |[39m     expect(exploreButton)[33m.[39mtoBeInTheDocument()[33m;[39m[0m
+
+      at emit (node_modules/nwsapi/src/nwsapi.js:557:17)
+      at Object._matches [as match] (node_modules/nwsapi/src/nwsapi.js:1397:9)
+      at SVGSVGElementImpl.ElementImpl.matches (node_modules/jsdom/lib/jsdom/living/nodes/Element-impl.js:571:18)
+      at SVGSVGElement.matches (node_modules/jsdom/lib/jsdom/living/generated/Element.js:630:34)
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/role-helpers.js:156:19
+      at getImplicitAriaRoles (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/role-helpers.js:95:9)
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/queries/role.js:115:65
+          at Array.filter (<anonymous>)
+      at queryAllByRole (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/queries/role.js:95:54)
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:87:17
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:62:17
+      at getByRole (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:111:19)
+      at Object.<anonymous> (src/__tests__/Login.test.js:81:34)
+
+  ● Login Page › 'back to explore' button on Header should route to products
+
+    SyntaxError: 'h1' is not a valid selector
+
+    [0m [90m 87 |[39m   it([32m"'back to explore' button on Header should route to products"[39m[33m,[39m [36masync[39m () [33m=>[39m {
+     [90m 88 |[39m     [90m// Matches by <button> with text "Back To Explore" - case insensitive[39m
+    [31m[1m>[22m[39m[90m 89 |[39m     [36mconst[39m exploreButton [33m=[39m screen[33m.[39mgetByRole([32m"button"[39m[33m,[39m {
+     [90m    |[39m                                  [31m[1m^[22m[39m
+     [90m 90 |[39m       name[33m:[39m [35m/back to explore/i[39m[33m,[39m
+     [90m 91 |[39m     })[33m;[39m
+     [90m 92 |[39m     userEvent[33m.[39mclick(exploreButton)[33m;[39m[0m
+
+      at emit (node_modules/nwsapi/src/nwsapi.js:557:17)
+      at Object._matches [as match] (node_modules/nwsapi/src/nwsapi.js:1397:9)
+      at SVGSVGElementImpl.ElementImpl.matches (node_modules/jsdom/lib/jsdom/living/nodes/Element-impl.js:571:18)
+      at SVGSVGElement.matches (node_modules/jsdom/lib/jsdom/living/generated/Element.js:630:34)
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/role-helpers.js:156:19
+      at getImplicitAriaRoles (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/role-helpers.js:95:9)
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/queries/role.js:115:65
+          at Array.filter (<anonymous>)
+      at queryAllByRole (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/queries/role.js:95:54)
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:87:17
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:62:17
+      at getByRole (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:111:19)
+      at Object.<anonymous> (src/__tests__/Login.test.js:89:34)
+
+  ● Login Page › should have register now link
+
+    SyntaxError: 'h1' is not a valid selector
+
+    [0m [90m  97 |[39m   it([32m"should have register now link"[39m[33m,[39m () [33m=>[39m {
+     [90m  98 |[39m     [90m// Matches by <a> with href and text "Register now" - case insensitive[39m
+    [31m[1m>[22m[39m[90m  99 |[39m     [36mconst[39m registerNow [33m=[39m screen[33m.[39mgetByRole([32m"link"[39m[33m,[39m { name[33m:[39m [35m/register now/i[39m })[33m;[39m
+     [90m     |[39m                                [31m[1m^[22m[39m
+     [90m 100 |[39m     expect(registerNow)[33m.[39mtoBeInTheDocument()[33m;[39m
+     [90m 101 |[39m   })[33m;[39m
+     [90m 102 |[39m[0m
+
+      at emit (node_modules/nwsapi/src/nwsapi.js:557:17)
+      at Object._matches [as match] (node_modules/nwsapi/src/nwsapi.js:1397:9)
+      at SVGSVGElementImpl.ElementImpl.matches (node_modules/jsdom/lib/jsdom/living/nodes/Element-impl.js:571:18)
+      at SVGSVGElement.matches (node_modules/jsdom/lib/jsdom/living/generated/Element.js:630:34)
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/role-helpers.js:156:19
+      at getImplicitAriaRoles (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/role-helpers.js:95:9)
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/queries/role.js:115:65
+          at Array.filter (<anonymous>)
+      at queryAllByRole (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/queries/role.js:95:54)
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:87:17
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:62:17
+      at getByRole (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:111:19)
+      at Object.<anonymous> (src/__tests__/Login.test.js:99:32)
+
+  ● Login Page › should throw error if username field is empty
+
+    TypeError: Cannot set property message of  which has only a getter
+
+      at onTimeout (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/wait-for.js:26:19)
+      at handleTimeout (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/wait-for.js:165:14)
+      at Timeout.task [as _onTimeout] (node_modules/jsdom/lib/jsdom/browser/Window.js:516:19)
+
+  ● Login Page › should throw error if username field is empty
+
+    thrown: "Exceeded timeout of 5000 ms for a test.
+    Use jest.setTimeout(newTimeout) to increase the timeout value, if this is a long-running test."
+
+    [0m [90m 101 |[39m   })[33m;[39m
+     [90m 102 |[39m
+    [31m[1m>[22m[39m[90m 103 |[39m   it([32m"should throw error if username field is empty"[39m[33m,[39m [36masync[39m () [33m=>[39m {
+     [90m     |[39m   [31m[1m^[22m[39m
+     [90m 104 |[39m     [36mconst[39m passwordInput [33m=[39m screen[33m.[39mgetByLabelText([35m/password/i[39m)[33m;[39m
+     [90m 105 |[39m
+     [90m 106 |[39m     userEvent[33m.[39mtype(passwordInput[33m,[39m [32m"learnbydoing"[39m)[33m;[39m[0m
+
+      at src/__tests__/Login.test.js:103:3
+      at Object.<anonymous> (src/__tests__/Login.test.js:38:1)
+
+  ● Login Page › should throw error if password field is empty
+
+    TypeError: Cannot set property message of  which has only a getter
+
+      at onTimeout (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/wait-for.js:26:19)
+      at handleTimeout (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/wait-for.js:165:14)
+      at Timeout.task [as _onTimeout] (node_modules/jsdom/lib/jsdom/browser/Window.js:516:19)
+
+  ● Login Page › should throw error if password field is empty
+
+    thrown: "Exceeded timeout of 5000 ms for a test.
+    Use jest.setTimeout(newTimeout) to increase the timeout value, if this is a long-running test."
+
+    [0m [90m 113 |[39m   })[33m;[39m
+     [90m 114 |[39m
+    [31m[1m>[22m[39m[90m 115 |[39m   it([32m"should throw error if password field is empty"[39m[33m,[39m [36masync[39m () [33m=>[39m {
+     [90m     |[39m   [31m[1m^[22m[39m
+     [90m 116 |[39m     [36mconst[39m usernameInput [33m=[39m screen[33m.[39mgetByLabelText([35m/username/i[39m)[33m;[39m
+     [90m 117 |[39m
+     [90m 118 |[39m     userEvent[33m.[39mtype(usernameInput[33m,[39m [32m"crio.do"[39m)[33m;[39m[0m
+
+      at src/__tests__/Login.test.js:115:3
+      at Object.<anonymous> (src/__tests__/Login.test.js:38:1)
+
+  ● Login Page › should show success alert if request succeeds
+
+    TypeError: Cannot set property message of  which has only a getter
+
+      at onTimeout (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/wait-for.js:26:19)
+      at handleTimeout (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/wait-for.js:165:14)
+      at Timeout.task [as _onTimeout] (node_modules/jsdom/lib/jsdom/browser/Window.js:516:19)
+
+  ● Login Page › should show success alert if request succeeds
+
+    thrown: "Exceeded timeout of 5000 ms for a test.
+    Use jest.setTimeout(newTimeout) to increase the timeout value, if this is a long-running test."
+
+    [0m [90m 181 |[39m   })[33m;[39m
+     [90m 182 |[39m
+    [31m[1m>[22m[39m[90m 183 |[39m   it([32m"should show success alert if request succeeds"[39m[33m,[39m [36masync[39m () [33m=>[39m {
+     [90m     |[39m   [31m[1m^[22m[39m
+     [90m 184 |[39m     [36mconst[39m request [33m=[39m {
+     [90m 185 |[39m       username[33m:[39m [32m"crio.do"[39m[33m,[39m
+     [90m 186 |[39m       password[33m:[39m [32m"learnbydoing"[39m[33m,[39m[0m
+
+      at src/__tests__/Login.test.js:183:3
+      at Object.<anonymous> (src/__tests__/Login.test.js:38:1)
+
+  ● Login Page › should show error alert with message sent from backend if request fails
+
+    TypeError: Cannot set property message of  which has only a getter
+
+      at onTimeout (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/wait-for.js:26:19)
+      at handleTimeout (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/wait-for.js:165:14)
+      at Timeout.task [as _onTimeout] (node_modules/jsdom/lib/jsdom/browser/Window.js:516:19)
+
+  ● Login Page › should show error alert with message sent from backend if request fails
+
+    thrown: "Exceeded timeout of 5000 ms for a test.
+    Use jest.setTimeout(newTimeout) to increase the timeout value, if this is a long-running test."
+
+    [0m [90m 197 |[39m   })[33m;[39m
+     [90m 198 |[39m
+    [31m[1m>[22m[39m[90m 199 |[39m   it([32m"should show error alert with message sent from backend if request fails"[39m[33m,[39m [36masync[39m () [33m=>[39m {
+     [90m     |[39m   [31m[1m^[22m[39m
+     [90m 200 |[39m     [36mconst[39m request [33m=[39m {
+     [90m 201 |[39m       username[33m:[39m [32m"crio.do"[39m[33m,[39m
+     [90m 202 |[39m       password[33m:[39m [32m"wrongpassword"[39m[33m,[39m[0m
+
+      at src/__tests__/Login.test.js:199:3
+      at Object.<anonymous> (src/__tests__/Login.test.js:38:1)
+
+Test Suites: 4 failed, 4 total
+Tests:       38 failed, 15 passed, 53 total
+Snapshots:   0 total
+Time:        59.359 s
+Ran all test suites.
+Test results written to: testReport.json
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! qkart-frontend-v2-hooks@0.1.0 test: `react-scripts test --json --outputFile=testReport.json --watchAll=false "--reporters=jest-junit" "--reporters=default" "--verbose" "--forceExit"`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the qkart-frontend-v2-hooks@0.1.0 test script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/.npm/_logs/2024-04-21T10_04_08_156Z-debug.log
+
