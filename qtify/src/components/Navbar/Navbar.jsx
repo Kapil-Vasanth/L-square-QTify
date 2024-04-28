@@ -2,7 +2,6 @@ import * as React from 'react';
 import Logo from '../Logo/Logo';
 import SearchBar from '../SearchBar/Searchbar';
 import Button from '../Button/Button'
-import { useTheme } from '@mui/material/styles';
 import styles from './navbar.module.css'
 
 export default function Navbar() {
