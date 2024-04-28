@@ -2,6 +2,9 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  --green: #34C94B;
+  --black: #121212;
+  --white: #ffffff
 }
 body {
   margin: 0;
@@ -13,3 +16,4 @@ body {
   background: #121212;
   height: 100vh;
 }
+
