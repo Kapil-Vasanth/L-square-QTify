@@ -7,7 +7,7 @@ export default function SearchBar(){
         <form action="" className={styles.searchForm}>
           <input type="search" name="" id="" className={styles.search} placeholder='Search a album of your choice'/>
           <div className={styles.searchicon}>
-            <img src={SearchIcon} />
+            <img src={SearchIcon} alt="searchIcon"/>
           </div>
         </form>
         </>
