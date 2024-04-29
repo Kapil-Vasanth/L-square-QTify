@@ -3,6 +3,7 @@ import Hero from './components/Hero/Hero'
 import { ThemeProvider } from '@mui/material/styles';
 import theme from './theme'
 import './App.css';
+import Carousel from './components/Carousel/Carousel';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <div className="App">
         <Navbar />
         <Hero />
+        <Carousel />
       </div>
     </ThemeProvider>
   );

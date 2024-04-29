@@ -7,4 +7,3 @@ export default function Hero(){
         <img className={styles.heroHeadPhone} src={HeroHeadPhones} alt="headphones-img" />
     </section>
 }
-
