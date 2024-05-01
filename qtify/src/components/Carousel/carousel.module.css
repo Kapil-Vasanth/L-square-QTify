@@ -1,31 +1,22 @@
-.carousel{
-    padding: 0px 60px;
-    padding-top: 32px;
+.swiper {
+    position: relative;
+    width: 100%;
 }
 
-.carouselHeader{
-    font-family: Poppins;
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 30px;
-    text-align: left;
-    display: flex;
-    justify-content: space-between;
-    padding-bottom: 18px;
+.leftIcon {
+    position: absolute;
+    left: 10px;
+    top: 40%;
+    transform: translateY(-50%);
+    z-index: 10;
+    cursor: pointer;
 }
 
-.carouselTitle{
-    color: var(--white);
+.rightIcon {
+    position: absolute;
+    right: 10px;
+    top: 40%;
+    transform: translateY(-50%);
+    z-index: 10;
+    cursor: pointer;
 }
-
-.carouselBtn {
-    color: var(--green);
-}
-
-.cardWrapper {
-    display: flex;
-    gap: 40px;
-    flex-wrap: wrap;
-}
-
-

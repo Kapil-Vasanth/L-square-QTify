@@ -1,23 +1,28 @@
+// Import Swiper React components
+import { Swiper, SwiperSlide } from 'swiper/react';
+import CarouselLeft from './CarouselLeft/CarouselLeft'
+import CarouselRight from './CarouselRight/CarouselRight'
 import styles from './carousel.module.css'
-import Card from '../Card/Card'
-import { useState } from 'react'
+// Import Swiper styles
+import 'swiper/css';
+import "swiper/css/navigation";
 
+export default function Carousel({data, component}){
 
-export default function Carousel({data,title}){
-    const [collapse,setCollapse] = useState(false)
-    
+  return (
+    <Swiper
+        className={styles.swiper}
+        spaceBetween={40}
+        slidesPerView={"auto"}
+        onSlideChange={() => console.log('slide change')}
+        onSwiper={(swiper) => console.log(swiper)}
+    >
+        <CarouselLeft />
+        <CarouselRight />
 
-
-    return <div className={styles.carousel}>
-        <div className={styles.carouselHeader}>
-            <p className={styles.carouselTitle}>{title}</p>
-            <p className={styles.carouselBtn} onClick={() => setCollapse(prev => !prev)}>Show All</p>
-        </div>
-        {collapse && "working"}
-        <div className={styles.cardWrapper}>
-            {data && data.map(song => {
-                return <Card cardData={song} key={song.id}/>
-            })}
-        </div>
-    </div>
-}
+        {data?.map(song => {
+            return <SwiperSlide key={song.id}>{component(song)}</SwiperSlide>
+        })}
+    </Swiper>
+  );
+};
