@@ -1,6 +1,6 @@
 import styles from './songSection.module.css'
 import Card from '../Card/Card'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import Carousel from '../Carousel/Carousel'
 import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
@@ -9,15 +9,18 @@ import Box from '@mui/material/Box';
 export default function SongSection({data, title, type, genre}){
     
     const [collapse, setCollapse] = useState(true)
-    const [songData, setSongData] = useState(data);
+    const [songData, setSongData] = useState([]);
     const [value, setValue] = useState('all');
-
+    useEffect(() => {
+        setSongData(data)
+    }, [data])
+    
     const handleChange = (event, newValue) => {
         setValue(newValue);
         if(newValue === "all")
         setSongData(data);
         else
-        setSongData(prev => data.filter(item => item.genre.key === newValue))
+        setSongData(data.filter(item => item.genre.key === newValue))
     };
 
     return <div className={styles.song_section}>
@@ -26,7 +29,7 @@ export default function SongSection({data, title, type, genre}){
             {type === "album" && <p className={styles.song_section_Btn} onClick={() => setCollapse(prev => !prev)}>Show All</p>}
         </div>
 
-        {type === "song" && data &&
+        {type === "song" && songData &&
         <Box sx={{ width: '100%', transform: 'translateY(-15px)' }}>
             <Tabs
                 value={value}
