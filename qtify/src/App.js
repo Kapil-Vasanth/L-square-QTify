@@ -11,6 +11,7 @@ function App() {
   const [topSongs,setTopSongs] = useState([])
   const [newSongs,setNewSongs] = useState([])
   const [songs,setSongs] = useState([])
+  const [genre,setGenre] = useState([])
   useEffect(() => {
     async function fetchTopAlbums(){
         try{
@@ -30,8 +31,16 @@ function App() {
     }
     async function fetchSongs(){
       try{
-          let res = await axios.get('https://qtify-backend-labs.crio.do/albums/new');
+          let res = await axios.get('https://qtify-backend-labs.crio.do/songs');
           setSongs(res.data)
+      }catch(err){
+          alert(err);
+      }
+    }
+    async function fetchGenre(){
+      try{
+          let res = await axios.get('https://qtify-backend-labs.crio.do/genres');
+          setGenre(res.data.data)
       }catch(err){
           alert(err);
       }
@@ -39,6 +48,7 @@ function App() {
     fetchTopAlbums();
     fetchNewAlbums();
     fetchSongs();
+    fetchGenre();
 },[])
 
 
@@ -47,10 +57,10 @@ function App() {
       <div className="App">
         <Navbar />
         <Hero />
-        <SongSection data={topSongs} title="Top Albums"/>
-        <SongSection data={newSongs} title="New Albums"/>
+        <SongSection data={topSongs} title="Top Albums" type="album"/>
+        <SongSection data={newSongs} title="New Albums" type="album"/>
         <div className='divider'></div>
-        <SongSection data={songs} title="Songs"/>
+        <SongSection data={songs} title="Songs" type="song" genre={genre}/>
         
       </div>
     </ThemeProvider>

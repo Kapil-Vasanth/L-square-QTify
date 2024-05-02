@@ -1,4 +1,7 @@
 
+.card{
+    max-width: 150px;
+}
 .cardMain{
     background: var(--white);
     max-width: 150px;

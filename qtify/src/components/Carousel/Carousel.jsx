@@ -14,8 +14,8 @@ export default function Carousel({data, component}){
         className={styles.swiper}
         spaceBetween={40}
         slidesPerView={"auto"}
-        onSlideChange={() => console.log('slide change')}
-        onSwiper={(swiper) => console.log(swiper)}
+        // onSlideChange={() => console.log('slide change')}
+        // onSwiper={(swiper) => console.log(swiper)}
     >
         <CarouselLeft />
         <CarouselRight />
